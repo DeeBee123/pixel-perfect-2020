@@ -1,7 +1,7 @@
 {
   "name": "sfe-template-20",
   "version": "0.1.0",
-  "homepage": "https://deebee321.github.io/pixel-perfect-2020",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "classnames": "^2.2.6",
