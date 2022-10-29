@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/pixel-perfect-2020/static/css/main.98989ba7.chunk.css",
-    "main.js": "/pixel-perfect-2020/static/js/main.829aa37d.chunk.js",
-    "main.js.map": "/pixel-perfect-2020/static/js/main.829aa37d.chunk.js.map",
+    "main.js": "/pixel-perfect-2020/static/js/main.fa25c7f7.chunk.js",
+    "main.js.map": "/pixel-perfect-2020/static/js/main.fa25c7f7.chunk.js.map",
     "runtime-main.js": "/pixel-perfect-2020/static/js/runtime-main.af934183.js",
     "runtime-main.js.map": "/pixel-perfect-2020/static/js/runtime-main.af934183.js.map",
     "static/css/2.e6ac38db.chunk.css": "/pixel-perfect-2020/static/css/2.e6ac38db.chunk.css",
     "static/js/2.3f268a70.chunk.js": "/pixel-perfect-2020/static/js/2.3f268a70.chunk.js",
     "static/js/2.3f268a70.chunk.js.map": "/pixel-perfect-2020/static/js/2.3f268a70.chunk.js.map",
     "index.html": "/pixel-perfect-2020/index.html",
-    "precache-manifest.b5a6e94685405c5331426965fca6c90c.js": "/pixel-perfect-2020/precache-manifest.b5a6e94685405c5331426965fca6c90c.js",
+    "precache-manifest.4388603c15a1b2d13decb508f71ac225.js": "/pixel-perfect-2020/precache-manifest.4388603c15a1b2d13decb508f71ac225.js",
     "service-worker.js": "/pixel-perfect-2020/service-worker.js",
     "static/css/2.e6ac38db.chunk.css.map": "/pixel-perfect-2020/static/css/2.e6ac38db.chunk.css.map",
     "static/css/main.98989ba7.chunk.css.map": "/pixel-perfect-2020/static/css/main.98989ba7.chunk.css.map",
@@ -68,6 +68,6 @@
     "static/css/2.e6ac38db.chunk.css",
     "static/js/2.3f268a70.chunk.js",
     "static/css/main.98989ba7.chunk.css",
-    "static/js/main.829aa37d.chunk.js"
+    "static/js/main.fa25c7f7.chunk.js"
   ]
 }

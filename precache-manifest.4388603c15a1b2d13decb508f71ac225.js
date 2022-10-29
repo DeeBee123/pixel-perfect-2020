@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8042aaf742de889a2a342f113d5875ee",
+    "revision": "c1eaf9291ca83034af2b66a36395e54e",
     "url": "/pixel-perfect-2020/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixel-perfect-2020/static/css/2.e6ac38db.chunk.css"
   },
   {
-    "revision": "6f2b800674ffe379273e",
+    "revision": "8992b31a1950d8271610",
     "url": "/pixel-perfect-2020/static/css/main.98989ba7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pixel-perfect-2020/static/js/2.3f268a70.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6f2b800674ffe379273e",
-    "url": "/pixel-perfect-2020/static/js/main.829aa37d.chunk.js"
+    "revision": "8992b31a1950d8271610",
+    "url": "/pixel-perfect-2020/static/js/main.fa25c7f7.chunk.js"
   },
   {
     "revision": "fa4c714523a380ef905f",
