@@ -1,0 +1,51 @@
+@import 'styles/base';
+
+.restaurant-information {
+    &__list-item {
+        align-items: center;
+        display: flex;
+    }
+
+    &__list-information {
+        margin-left: 36px;
+    }
+
+    &__list-icon {
+        height: 24px;
+        position: absolute;
+        width: 24px;
+
+        path {
+            stroke: $lightblue;
+        }
+    }
+
+    &__list-label {
+        color: $grey-700;
+        font-size: $font-size-20;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+
+    &__list-description {
+        color: $grey-600;
+        font-size: $font-size-14;
+        font-weight: 700;
+        line-height: 1.14;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+
+    &__list-link {
+        outline: none;
+
+        &:hover {
+            border-bottom: 1px solid $grey-600;
+        }
+
+        &:focus {
+            border-bottom: 1px solid $grey-800;
+            color: $grey-700;
+        }
+    }
+}

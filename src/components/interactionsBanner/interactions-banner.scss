@@ -1,0 +1,45 @@
+@import 'styles/base';
+
+.interactions-banner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+
+    &__item {
+        align-items: center;
+        display: flex;
+    }
+
+    &__rating-stars {
+        margin-right: 16px;
+    }
+
+    &__check-in-text {
+        color: $grey-700;
+        font-size: $font-size-14;
+        font-weight: bold;
+        margin: 0 12px;
+        text-transform: uppercase;
+    }
+
+    &__invite {
+        background: none;
+        border: 0;
+        color: $grey-600;
+        cursor: pointer;
+        font-size: $font-size-12;
+        font-weight: 500;
+        margin-right: 16px;
+        outline: none;
+        text-align: center;
+        text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+            border-bottom: 1px solid $grey-700;
+            border-top: 1px solid transparent; // to avoid movement
+            color: $grey-700;
+        }
+    }
+}

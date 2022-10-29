@@ -1,0 +1,19 @@
+@import '../../styles/base';
+
+.red-heart {
+    cursor: pointer;
+
+    &--liked {
+        fill: $red;
+
+        path {
+            stroke: $red;
+        }
+    }
+
+    &:hover {
+        path {
+            stroke: $red-600;
+        }
+    }
+}

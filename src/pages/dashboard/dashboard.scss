@@ -1,0 +1,26 @@
+@import 'styles/base';
+
+.dashboard {
+    margin: 0 auto;
+    max-width: $content-max-width;
+
+    &__widgets {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 20px 72px 0;
+
+        @include respond-to($small-laptop-width, max) {
+            flex-direction: column;
+
+            .hello-widget {
+                align-self: flex-start;
+            }
+
+            .weather {
+                align-self: center;
+                margin-top: 40px;
+            }
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@import 'styles/base';
+
+.search-tag {
+    background: $white;
+    border: 1px solid $grey-400;
+    color: $grey-700;
+
+    &:hover,
+    &:focus {
+        background: $grey-100;
+        border-color: $grey-600;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &__icon {
+        height: 16px;
+        margin-right: 8px;
+        width: 16px;
+
+        path {
+            stroke: $grey-700;
+        }
+
+        // svg stroke-width is 2px but looks smaller than other
+        // svgs with the same stroke-width so this is needed
+        &--bigger path {
+            stroke-width: 3px;
+        }
+    }
+
+    &--active {
+        background: $grey-700;
+        border-color: $grey-700;
+        color: $white;
+
+        path {
+            stroke: $white;
+        }
+
+        &:hover,
+        &:focus {
+            background: $grey-650;
+            border-color: $grey-650;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+}

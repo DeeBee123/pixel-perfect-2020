@@ -1,0 +1,77 @@
+@import 'styles/base';
+
+.restaurant-page-header {
+    display: flex;
+    flex-direction: column;
+    height: 470px;
+    justify-content: flex-end;
+    position: relative;
+    width: 100%;
+
+    &__categories {
+        display: flex;
+    }
+
+    &__category-link {
+        background: $grey-800;
+        color: $white;
+
+        &:hover,
+        &:focus {
+            background: $grey-700;
+            outline: none;
+        }
+    }
+
+    &__title {
+        color: $grey-800;
+        font-size: $font-size-48;
+        font-weight: bold;
+        line-height: 56px;
+        margin: 12px 0 70px;
+    }
+
+    &__interactions-banner {
+        margin: -32px 0 40px;
+        position: relative;
+    }
+
+    &__image-container {
+        display: flex;
+        height: 520px;
+        margin-left: -40px;
+        position: absolute;
+        width: calc(100% + 80px);
+        z-index: $z-index-bgr;
+
+        &::before,
+        &::after {
+            content: '';
+            height: 520px;
+            position: absolute;
+            width: 100%;
+        }
+
+        &::before {
+            background: linear-gradient(
+                98deg,
+                rgba($grey-100, 1) 20%,
+                rgba($grey-100, 0) 100%
+            );
+        }
+
+        &::after {
+            background: linear-gradient(
+                to left,
+                rgba($grey-100, 1) 0%,
+                rgba($grey-100, 0.2) 50%,
+                rgba($grey-100, 0) 100%
+            );
+        }
+    }
+
+    &__image {
+        object-fit: cover;
+        width: 100%;
+    }
+}

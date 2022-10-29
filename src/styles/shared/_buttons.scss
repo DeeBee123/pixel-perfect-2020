@@ -1,0 +1,138 @@
+button {
+    cursor: pointer;
+    font-family: $font-family;
+}
+
+// large button
+.btn-large {
+    align-items: center;
+    background: $purple;
+    border: 0;
+    border-radius: 65px;
+    color: $white;
+    display: flex;
+    font-size: $font-size-16;
+    font-weight: 500;
+    height: 40px;
+    line-height: 1.5;
+    padding: 8px 24px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+        background: $purple-600;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &:active {
+        background: $purple-700;
+    }
+
+    &:disabled {
+        background: $grey-200;
+        color: $grey;
+        cursor: not-allowed;
+    }
+
+    &--red {
+        background: $red-500;
+
+        &:hover,
+        &:focus {
+            background: $red-600;
+        }
+    }
+}
+
+// medium button
+.btn-medium {
+    align-items: center;
+    background: $purple;
+    border: 0;
+    border-radius: 65px;
+    color: $white;
+    display: flex;
+    font-size: $font-size-12;
+    font-weight: 500;
+    height: 32px;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    &:hover,
+    &:focus {
+        background: $purple-600;
+        cursor: pointer;
+        outline: none;
+    }
+
+    &:active {
+        background: $purple-700;
+    }
+
+    &:disabled {
+        background: $grey-200;
+        color: $grey;
+        cursor: not-allowed;
+    }
+
+    &--red {
+        background: $red;
+
+        &:hover,
+        &:focus {
+            background: $red-600;
+        }
+    }
+}
+
+// button that has an SVG inside
+.svg-button {
+    @include svg-button-default;
+    cursor: default;
+    transition: all 0.2s;
+
+    svg {
+        cursor: pointer;
+
+        &:hover path {
+            stroke: $purple-600;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &--scale {
+        &:hover,
+        &:focus {
+            transform: scale(1.2);
+        }
+    }
+
+    &:focus svg path {
+        stroke: $purple-600;
+    }
+}
+
+// button used for filter/food category tags
+.tag-button {
+    align-items: center;
+    border-radius: 8px;
+    display: flex;
+    font-size: $font-size-12;
+    font-weight: 500;
+    height: 28px;
+    line-height: 1.33;
+    margin-right: 12px;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    z-index: $z-index-overlay;
+}

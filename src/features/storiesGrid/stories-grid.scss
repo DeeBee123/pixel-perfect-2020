@@ -1,0 +1,19 @@
+@import '../../styles/base';
+
+.stories-grid {
+    &__stories {
+        column-gap: 40px;
+        columns: 3;
+        margin: 0 auto;
+        max-width: $content-max-width;
+        text-align: center;
+
+        @include respond-to($dashboard-desktop-break-point, max) {
+            columns: 2;
+        }
+
+        @include respond-to(860, max) {
+            columns: 1;
+        }
+    }
+}

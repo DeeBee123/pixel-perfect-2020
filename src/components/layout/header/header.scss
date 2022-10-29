@@ -1,0 +1,13 @@
+@import '../../../styles/base';
+
+.header {
+    align-items: center;
+    background-color: $white;
+    box-shadow: 0 0 4px rgba($black, 0.2);
+    display: flex;
+    height: 96px;
+    justify-content: flex-end;
+    padding-right: 40px;
+    position: absolute;
+    width: 100%;
+}

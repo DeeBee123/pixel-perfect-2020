@@ -1,0 +1,21 @@
+@import 'styles/base';
+
+.counter-box {
+    background: $yellow;
+    border-radius: 8px;
+    color: $grey-750;
+    font-size: $font-size-14;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1.15;
+    padding: 8px 12px;
+
+    &--inverted {
+        background: $grey-750;
+        color: $yellow;
+    }
+
+    &__icon {
+        margin-right: 8px;
+    }
+}

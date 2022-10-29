@@ -1,0 +1,44 @@
+@import '../../styles';
+
+.video-card {
+    &__video {
+        @include card-aspect-ratio-1-1;
+
+        &:focus {
+            outline: 1px solid $grey-750;
+        }
+    }
+
+    &__cover {
+        animation: turnVisible 0.4s;
+
+        &-button {
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        &-button:hover,
+        &-button:focus {
+            path:nth-child(1) {
+                fill: $purple;
+                stroke: $purple;
+            }
+
+            path:nth-child(2) {
+                fill: $white;
+                stroke: $white;
+            }
+        }
+
+        &-image {
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+    }
+}

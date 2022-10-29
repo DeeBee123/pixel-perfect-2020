@@ -1,0 +1,26 @@
+@import '../../../styles/base';
+
+.footer {
+    align-items: center;
+    background-color: $white;
+    bottom: 0;
+    box-shadow: 0 0 4px rgba($black, 0.2);
+    color: $grey-700;
+    display: flex;
+    height: 72px;
+    justify-content: flex-end;
+    overflow: auto;
+    position: absolute;
+    width: 100%;
+
+    &__copyright {
+        align-items: center;
+        display: flex;
+        font-size: $font-size-10;
+        font-style: normal;
+        font-weight: 500;
+        margin-right: 40px;
+        text-align: right;
+        text-transform: uppercase;
+    }
+}

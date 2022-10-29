@@ -1,0 +1,111 @@
+@import '../../styles/base';
+
+/*
+    .input = input tag
+    .input--error = input when invalid input
+    .input__error-msg = p tag below input with error message
+    .input-label = label tag above input
+*/
+.form-field {
+    align-self: flex-end;
+    flex-basis: 100%;
+
+    &__input {
+        background: $white;
+        border: 1px solid $grey-300;
+        border-radius: 5px;
+        box-sizing: border-box;
+        color: $grey-700;
+        font-size: $font-size-14;
+        height: 48px;
+        line-height: 1.7;
+        margin-bottom: 8px;
+        padding: 12px 16px;
+        width: 100%;
+
+        &:focus {
+            border: 1px solid $grey-700;
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $grey-400;
+        }
+
+        &--error {
+            border: 1px solid $red;
+            padding-right: 40px;
+
+            &:focus {
+                border: 1px solid $red;
+            }
+        }
+    }
+
+    &__label {
+        color: $grey;
+        display: inline-block;
+        font-size: $font-size-14;
+        font-weight: 700;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    &__error-msg {
+        color: $red;
+        font-size: $font-size-10;
+        font-weight: 500;
+        height: 10px;
+        margin: 0;
+        opacity: 0;
+        text-transform: uppercase;
+
+        &--visible {
+            opacity: 1;
+        }
+    }
+
+    &__clear-btn {
+        align-items: center;
+        background-color: $white;
+        border: 0;
+        box-sizing: border-box;
+        cursor: pointer;
+        display: none;
+        height: 16px;
+        justify-content: center;
+        position: absolute;
+        right: 16px;
+        top: 42px;
+        width: 16px;
+
+        &--visible {
+            display: flex;
+        }
+
+        &:focus,
+        &:hover {
+            border: 1px solid $red;
+            border-radius: 3px;
+            outline: 0;
+        }
+
+        &::before,
+        &::after {
+            background-color: $red;
+            border-radius: 1px;
+            content: '';
+            height: 11px;
+            position: absolute;
+            width: 2px;
+        }
+
+        &::before {
+            transform: rotate(45deg);
+        }
+
+        &::after {
+            transform: rotate(-45deg);
+        }
+    }
+}

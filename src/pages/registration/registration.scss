@@ -1,0 +1,20 @@
+@import '../../styles/base/colors';
+
+.registration {
+    align-items: center;
+    background-color: $grey-300;
+    display: flex;
+    min-height: 100vh;
+
+    &__content {
+        margin: 68px auto;
+        width: 544px;
+    }
+
+    &__logo {
+        display: block;
+        height: auto;
+        margin: 0 auto 68px;
+        width: 162px;
+    }
+}

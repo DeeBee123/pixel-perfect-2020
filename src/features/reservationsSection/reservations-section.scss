@@ -1,0 +1,14 @@
+@import '../../styles/base';
+
+.reservations-section {
+    margin-bottom: 94px;
+
+    &__categories {
+        @include grid-one-row-3-items(category-card);
+
+        // without this, cards overflow with 2 rows from 768px to 800px when navbar is opened
+        @include respond-to(800, max) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+}

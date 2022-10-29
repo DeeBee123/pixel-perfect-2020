@@ -1,0 +1,86 @@
+@import '../../styles/base';
+
+.card-comments {
+    &__comments {
+        border-bottom: 1px solid $grey-300;
+        border-top: 1px solid $grey-300;
+        color: $grey-700;
+        font-size: $font-size-12;
+        list-style-type: none;
+        padding: 12px 0;
+        text-align: left;
+    }
+
+    &__comment {
+        word-wrap: break-word;
+
+        &:not(:last-of-type) {
+            margin-bottom: 8px;
+        }
+    }
+
+    &__show-more {
+        @include text-button-states;
+        background: 0;
+        border: 0;
+        border-bottom: 1px solid $white;
+        color: $grey-700;
+        cursor: pointer;
+        display: block;
+        margin: 8px auto 0;
+    }
+
+    &__username {
+        font-weight: 500;
+        margin-right: 8px;
+        text-transform: uppercase;
+    }
+
+    &__new-comment {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+    }
+
+    &__form {
+        display: flex;
+        flex-basis: 100%;
+    }
+
+    &__input {
+        background: $white;
+        border: 0;
+        border-bottom: 1px solid $white;
+        color: $grey-700;
+        flex-basis: 100%;
+        font-size: $font-size-12;
+        line-height: 1.7;
+
+        &:hover {
+            border-bottom: 1px solid $grey-300;
+        }
+
+        &:focus {
+            border-bottom: 1px solid $grey-700;
+            outline: none;
+        }
+
+        &::placeholder {
+            color: $grey;
+        }
+    }
+
+    &__submit {
+        @include text-button-states;
+        background: $white;
+        border: 0;
+        border-bottom: 1px solid $white;
+        color: $grey-600;
+        cursor: pointer;
+        font-size: $font-size-12;
+        font-weight: 500;
+        margin-left: 12px;
+        text-transform: uppercase;
+    }
+}

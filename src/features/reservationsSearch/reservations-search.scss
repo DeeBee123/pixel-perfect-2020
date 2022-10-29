@@ -1,0 +1,155 @@
+@import 'styles/base';
+
+.reservations-search {
+    $_search-tablet-size: 930;
+    margin-bottom: 66px;
+    width: 100%;
+
+    @include respond-to($small-laptop-width, max) {
+        margin-bottom: 36px;
+    }
+
+    &__tags {
+        display: flex;
+    }
+
+    &__form {
+        display: grid;
+        grid-column-gap: 40px;
+        grid-row-gap: 24px;
+        grid-template-columns: 3.5fr 1.5fr auto;
+
+        @include respond-to($small-laptop-width, max) {
+            grid-template-columns: 3fr 2fr auto;
+        }
+
+        @include respond-to($_search-tablet-size, max) {
+            grid-template-columns: 2.75fr 1.75fr;
+            margin-top: 8px;
+        }
+    }
+
+    &__input-field {
+        align-items: center;
+        display: flex;
+    }
+
+    &__input-field--active {
+        border: 1px solid $grey-700;
+        border-radius: 5px;
+        outline: none;
+    }
+
+    &__search-input {
+        padding-left: 40px;
+    }
+
+    &__datepicker,
+    &__search-input {
+        padding-right: 40px;
+    }
+
+    &__datepicker--active {
+        border: 1px solid $grey-700;
+        outline: none;
+    }
+
+    &__search-icon,
+    &__input-icon-right {
+        height: 16px;
+        position: absolute;
+        width: 16px;
+    }
+
+    &__search-icon {
+        margin-left: 16px;
+
+        path {
+            stroke: $grey-700;
+        }
+
+        &--aligned-right {
+            margin-right: 16px;
+            right: 0;
+        }
+    }
+
+    &__submit-icon,
+    &__search-icon {
+        cursor: pointer;
+        margin-right: 8px;
+    }
+
+    &__input-icon-right {
+        background-color: $white;
+        border: 0;
+        border-radius: 50%;
+        cursor: pointer;
+        margin-right: 16px;
+        right: 0;
+
+        path {
+            stroke: $grey-700;
+        }
+
+        &:hover path {
+            stroke: $purple;
+        }
+
+        &:focus path {
+            stroke: $purple-600;
+        }
+
+        &--red-animations {
+            &:hover path {
+                stroke: $red;
+            }
+
+            &:focus path {
+                stroke: $red-600;
+            }
+        }
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    &__submit {
+        align-self: flex-end;
+        margin-bottom: 4px;
+    }
+
+    .form-component {
+        min-height: 230px;
+        padding: 36px 40px 40px;
+
+        &__header {
+            padding-bottom: 0;
+
+            @include respond-to(800, min) {
+                margin-bottom: -12px;
+            }
+        }
+
+        &__title {
+            font-size: $font-size-32;
+            font-weight: 500;
+            line-height: 1.17;
+            margin-bottom: 24px;
+        }
+    }
+
+    .form-field__input {
+        margin-bottom: 0;
+    }
+
+    .form__column {
+        margin: 0;
+        padding: 0;
+    }
+
+    .react-datepicker-wrapper {
+        width: 100%;
+    }
+}

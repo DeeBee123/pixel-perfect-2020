@@ -1,0 +1,18 @@
+@import '../../../../styles/base';
+
+.get-started-list {
+    border: 1px solid $black;
+    border-radius: 3px;
+    margin: 25px;
+    padding: 10px;
+    text-align: left;
+
+    &__list {
+        margin-left: 20px;
+        padding: 10px;
+    }
+
+    &__list-item {
+        padding: 5px;
+    }
+}

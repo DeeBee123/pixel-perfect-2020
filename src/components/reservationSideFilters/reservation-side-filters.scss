@@ -1,0 +1,11 @@
+@import 'styles/base';
+
+.reservation-side-filters {
+    margin-right: 40px;
+    min-width: 286px;
+
+    @include respond-to($small-laptop-width, max) {
+        margin-right: 24px;
+        min-width: 34.4%;
+    }
+}

@@ -1,0 +1,13 @@
+@import 'styles/base';
+
+.main-body {
+    margin: 0 auto;
+    max-width: $content-wrapper-width;
+    // - 1px padding right because styleguide doesn't match width of provided cards + their margins
+    padding: 120px 39px 82px 136px;
+    transition: padding-left 200ms ease;
+
+    .navbar--expanded ~ & {
+        padding-left: 246px;
+    }
+}

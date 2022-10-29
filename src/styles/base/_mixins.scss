@@ -1,0 +1,87 @@
+@mixin respond-to($size, $dir) {
+    @if ($size == retina) {
+        // stylelint-disable media-feature-name-no-vendor-prefix
+        @media only screen and (min-resolution: 2dppx),
+            (-webkit-min-device-pixel-ratio: 2) {
+            @content;
+        }
+    } @else if ($size and $dir) {
+        @media screen and (#{$dir}-width: ($size + px)) {
+            @content;
+        }
+    }
+}
+
+@mixin text-button-states {
+    &:hover {
+        border-bottom: 1px solid $grey-300;
+        color: $grey-700;
+    }
+
+    &:hover,
+    &:focus {
+        border-bottom: 1px solid $grey-700;
+        color: $grey-750;
+        outline: none;
+    }
+
+    &:active {
+        color: $grey-800;
+    }
+}
+
+@mixin svg-button-default {
+    background: none;
+    border: 0;
+    outline: none;
+    padding: 0;
+}
+
+@mixin post-card-default {
+    background: $white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba($black, 0.25);
+    display: inline-block;
+    width: 100%;
+}
+
+@mixin card-aspect-ratio-1-1 {
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+// used for creating a one row 3 column responsive grid for cards
+// $card-name: class name of the cards that are used in this grid;
+// if class name is ".card", then you would pass only "card" without the dot.
+@mixin grid-one-row-3-items($card-name) {
+    display: grid;
+    grid-column-gap: 40px;
+    grid-row-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    width: 100%;
+
+    @include respond-to(1240, max) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include respond-to(768, max) {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .#{$card-name} {
+        max-width: 100%;
+    }
+}
+
+@mixin eatout-page-section-title-default {
+    font-size: $font-size-24;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.16;
+    margin-left: 0;
+}

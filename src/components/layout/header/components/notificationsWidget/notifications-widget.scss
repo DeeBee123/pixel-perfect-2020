@@ -1,0 +1,60 @@
+@import '../../../../../styles/base';
+
+.notifications {
+    margin-right: 24px;
+
+    .user-profile-widget__menu {
+        margin-top: 18px;
+        max-height: 150px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        right: -9px;
+        z-index: $z-index-overlay;
+
+        &-link {
+            color: $grey-600;
+            font-size: $font-size-12;
+            font-weight: 500;
+        }
+
+        &:focus {
+            border: 1px solid $grey-600;
+            outline: none;
+        }
+
+        &--scroll-disabled {
+            overflow-x: visible;
+            overflow-y: visible;
+        }
+    }
+
+    &__icon {
+        height: 20px;
+        position: absolute;
+        width: 20px;
+    }
+
+    &__text {
+        margin-left: 32px;
+    }
+
+    &__red-circle {
+        background-color: $red;
+        border: 2px solid $white;
+        border-radius: 50%;
+        height: 10px;
+        position: absolute;
+        right: 1px;
+        top: -3px;
+        width: 10px;
+    }
+
+    &__highlight {
+        color: $grey-700;
+    }
+
+    &__more {
+        justify-content: center;
+        text-align: center;
+    }
+}

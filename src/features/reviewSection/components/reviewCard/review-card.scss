@@ -1,0 +1,46 @@
+@import 'styles/base';
+
+.review-section {
+    margin-bottom: 24px;
+
+    &__card-container {
+        margin-bottom: 16px;
+        position: relative;
+
+        &:last-of-type {
+            margin-bottom: 24px;
+        }
+
+        .counter-box {
+            border-bottom-right-radius: 0;
+            border-top-left-radius: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    &__no-reviews {
+        color: $grey-600;
+        font-size: $font-size-16;
+    }
+
+    &__review {
+        margin: 20px 16px;
+    }
+
+    &__username {
+        color: $grey-800;
+        font-size: $font-size-14;
+        font-weight: 700;
+        line-height: 16px;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    &__comment {
+        color: $grey-800;
+        font-size: $font-size-14;
+        line-height: 21px;
+    }
+}

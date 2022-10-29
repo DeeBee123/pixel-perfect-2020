@@ -1,0 +1,92 @@
+@import 'styles/base';
+
+// for multiline text with elipsis
+$font-size: $font-size-16;
+$line-height: 1.5;
+$lines-to-show: 3;
+
+.restaurant-card {
+    display: flex;
+    flex-direction: column;
+
+    .info-container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    &__info-item {
+        align-items: center;
+        color: $grey-700;
+        display: flex;
+        font-size: $font-size-12;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px;
+        margin: 0 16px 10px;
+        text-transform: uppercase;
+    }
+
+    &__icon {
+        height: 18px;
+        margin-right: 8px;
+        width: 18px;
+    }
+
+    &__link {
+        color: $grey-700;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+            border-bottom: 1px solid $grey-800;
+            border-top: 1px solid transparent;
+            color: $grey-800;
+        }
+    }
+
+    &__description {
+        -webkit-box-orient: vertical; /* stylelint-disable-line property-no-vendor-prefix */
+        color: $grey-600;
+        display: -webkit-box; /* stylelint-disable-line value-no-vendor-prefix */
+        font-size: $font-size;
+        font-style: normal;
+        font-weight: normal;
+        height: $font-size * $line-height * $lines-to-show;
+        -webkit-line-clamp: $lines-to-show; /* stylelint-disable-line property-no-vendor-prefix */
+        line-height: $line-height;
+        margin: 0 16px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .bottom-links-container {
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    &__read-more {
+        color: $grey-600;
+        font-size: $font-size-12;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 13px;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+
+        &:hover,
+        &:focus {
+            border-bottom: 1px solid $grey-700;
+            border-top: 1px solid transparent;
+            color: $grey-700;
+        }
+    }
+
+    &__check-in {
+        margin: 24px;
+    }
+}

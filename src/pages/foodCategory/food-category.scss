@@ -1,0 +1,30 @@
+@import 'styles/base';
+
+.food-category {
+    $_two-columns: 1344;
+    $_one-column: 900;
+    margin: 0 auto 40px;
+    max-width: $content-max-width;
+
+    &__grid {
+        display: grid;
+        grid-column-gap: 40px;
+        grid-row-gap: 32px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-items: center;
+
+        @include respond-to($_two-columns, max) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include respond-to($_one-column, max) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+    }
+
+    .card {
+        @include respond-to($_two-columns, max) {
+            max-width: 600px;
+        }
+    }
+}

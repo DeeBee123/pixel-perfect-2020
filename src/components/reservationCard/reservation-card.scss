@@ -1,0 +1,98 @@
+@import 'styles/base';
+
+.reservation-card {
+    display: flex;
+    margin-bottom: 24px;
+    min-height: 160px;
+    padding: 16px;
+
+    &__image {
+        align-self: center;
+        height: 128px;
+        margin-right: 16px;
+        object-fit: contain;
+        width: 100px;
+
+        @include respond-to($small-laptop-width, max) {
+            height: 100px;
+            width: 78.125px;
+        }
+    }
+
+    &__content {
+        flex-basis: 100%;
+        position: relative;
+    }
+
+    &__like {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    &__brand-name {
+        color: $grey-600;
+        font-size: $font-size-12;
+        font-weight: 500;
+        margin-bottom: 8px;
+        text-transform: uppercase;
+    }
+
+    &__item-name {
+        color: $grey-770;
+        font-size: $font-size-24;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+        margin-bottom: 10px;
+        max-width: 95%;
+    }
+
+    &__availability {
+        align-items: center;
+        display: flex;
+    }
+
+    &__availability-text {
+        color: $grey-700;
+        font-size: $font-size-12;
+        font-weight: 500;
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+
+    &__bottom-content {
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    &__quantity {
+        color: $grey-600;
+        font-size: $font-size-12;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+
+    &__actions {
+        align-items: center;
+        display: flex;
+        margin-left: 16px;
+    }
+
+    &__view-more {
+        @include text-button-states;
+        background: 0;
+        border: 0;
+        border-bottom: 1px solid $white;
+        color: $grey-600;
+        cursor: pointer;
+        font-size: $font-size-12;
+        font-weight: 500;
+        margin-right: 16px;
+    }
+
+    &:last-of-type {
+        margin-bottom: 48px;
+    }
+}

@@ -1,0 +1,50 @@
+@import 'styles/base';
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 64px;
+
+    &__arrow {
+        height: 12px;
+        width: 6px;
+    }
+
+    &__item {
+        align-items: center;
+        background-color: $white;
+        border: 1px solid $grey-400;
+        border-radius: 5px;
+        color: $grey-700;
+        display: flex;
+        font-size: $font-size-14;
+        font-weight: 900;
+        height: 32px;
+        justify-content: center;
+        line-height: 1.7;
+        margin-right: 16px;
+        position: relative;
+        width: 32px;
+
+        &--active {
+            opacity: 70%;
+        }
+
+        &--rotated {
+            transform: rotate(-180deg);
+        }
+
+        &:focus,
+        &:hover:not(:disabled) {
+            background: $grey-200;
+            cursor: pointer;
+            outline: none;
+        }
+    }
+
+    &__current-item {
+        background-color: $purple-500;
+        border: 0;
+        color: $white;
+    }
+}

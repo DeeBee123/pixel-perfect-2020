@@ -1,0 +1,21 @@
+@import '../../../styles/base';
+
+.hello-widget {
+    color: $grey-750;
+    display: inline-block;
+    margin-right: 20px;
+
+    &__time {
+        font-size: $font-size-100;
+        margin-bottom: 16px;
+        margin-top: 0;
+    }
+
+    &__greeting {
+        font-size: $font-size-36;
+
+        @include respond-to(800, max) {
+            font-size: $font-size-30;
+        }
+    }
+}

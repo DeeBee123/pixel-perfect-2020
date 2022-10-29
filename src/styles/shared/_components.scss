@@ -1,0 +1,50 @@
+.card {
+    background-color: $white;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba($black, 0.25);
+    overflow: hidden;
+    width: 100%;
+
+    &--no-shadow {
+        box-shadow: none;
+    }
+}
+
+.title {
+    color: $grey-700;
+    font-size: $font-size-36;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.section-title {
+    color: $grey-750;
+    font-size: $font-size-24;
+    font-weight: 900;
+    line-height: 1.3;
+    margin: 24px;
+    margin-left: 0;
+}
+
+.eatout-page-section-title {
+    @include eatout-page-section-title-default;
+    color: $grey-800;
+    margin: 0 0 32px;
+}
+
+.restaurant-page-section-title {
+    @include eatout-page-section-title-default;
+    color: $grey-700;
+    margin: 24px 0;
+}
+
+.page-title {
+    color: $grey-700;
+    font-size: $font-size-36;
+    font-weight: 700;
+    margin: 8px 0 32px;
+
+    &--smaller-margin {
+        margin-bottom: 24px;
+    }
+}

@@ -1,0 +1,29 @@
+@import 'styles/base';
+
+.restaurant-location {
+    width: 100%;
+
+    &__map-wrapper {
+        height: 390px;
+        position: relative;
+        // -1px because on focus at some screen widths right outline would disappear
+        width: calc(100% - 1px);
+    }
+
+    &__map-container {
+        bottom: 0;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .mapboxgl-canvas {
+        border: 2px solid $transparent;
+        outline: 0;
+
+        &:focus {
+            border: 2px solid $purple;
+        }
+    }
+}

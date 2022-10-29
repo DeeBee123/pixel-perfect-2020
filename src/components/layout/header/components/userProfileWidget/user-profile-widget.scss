@@ -1,0 +1,154 @@
+@import '../../../../../styles/base';
+
+.user-profile-widget {
+    position: relative;
+
+    &__button {
+        $_this: &;
+        @include svg-button-default;
+        cursor: pointer;
+
+        &-image {
+            border: 1px solid $white;
+            border-radius: 50%;
+            height: 40px;
+            object-fit: cover;
+            width: 40px;
+        }
+
+        &-arrow {
+            height: 10px;
+            margin-left: -14px;
+        }
+
+        svg {
+            cursor: pointer;
+
+            &:hover path {
+                fill: $white;
+                stroke: $purple;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        &:focus,
+        &:hover {
+            #{$_this}-image {
+                border: 1px solid $purple;
+            }
+
+            svg path {
+                fill: $white;
+                stroke: $purple;
+            }
+        }
+    }
+
+    &__menu {
+        background-color: $white;
+        border: 1px solid $grey-400;
+        border-radius: 5px;
+        margin-top: 10px;
+        position: absolute;
+        right: 0;
+        width: 197px;
+        z-index: $z-index-overlay;
+
+        &-list {
+            list-style-type: none;
+        }
+
+        &-item {
+            &:not(:last-child) {
+                border-bottom: 1px solid $grey-200;
+            }
+
+            &:first-child {
+                border-radius: 4px 4px 0 0;
+            }
+
+            &:last-child {
+                border-radius: 0 0 4px 4px;
+            }
+
+            &:only-child {
+                border-radius: 4px;
+            }
+
+            &:hover,
+            &:focus {
+                background-color: $grey-200;
+                outline: none;
+            }
+        }
+
+        &-link {
+            align-items: center;
+            border-radius: inherit;
+            color: $grey-700;
+            display: flex;
+            font-size: $font-size-14;
+            height: 100%;
+            padding: 12px 18px;
+            position: relative;
+            text-decoration: none;
+            width: 100%;
+            z-index: $z-index-overlay;
+
+            &:hover,
+            &:focus {
+                background-color: $grey-200;
+                outline: none;
+            }
+        }
+
+        &-link--with-triangle {
+            &::after {
+                background-color: $white;
+                border-left: 1px solid $grey-400;
+                border-top: 1px solid $grey-400;
+                content: '';
+                height: 8px;
+                position: absolute;
+                right: 16px;
+                top: -5px;
+                transform: rotate(45deg);
+                width: 8px;
+            }
+
+            &:hover::after,
+            &:focus::after {
+                background-color: $grey-200;
+            }
+        }
+
+        &-icon {
+            margin-right: 10px;
+        }
+
+        &--visible {
+            display: block;
+        }
+    }
+
+    &__menu--scrollable {
+        border-radius: 5px 0 0 5px;
+
+        .user-profile-widget__menu-item {
+            &:first-child {
+                border-radius: 4px 0 0;
+            }
+
+            &:last-child {
+                border-radius: 0 0 0 4px;
+            }
+
+            &:only-child {
+                border-radius: 4px 0 0 4px;
+            }
+        }
+    }
+}

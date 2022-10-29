@@ -1,0 +1,96 @@
+@import '../../styles/base';
+
+.birthday-card {
+    @include post-card-default;
+    margin: 48px 0 40px;
+    padding: 0 16px;
+
+    &__content {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+
+    &__author {
+        &-info {
+            color: $grey-800;
+            font-size: $font-size-12;
+            font-weight: 500;
+            line-height: 1.3;
+            z-index: $z-index-overlay; // overlay text over SVGs in case userName is very long
+        }
+
+        &-name,
+        &-birthday,
+        &-encouragement {
+            margin: 0 0 4px;
+        }
+
+        &-name {
+            margin-top: 18px;
+            text-transform: uppercase;
+        }
+
+        &-encouragement {
+            margin-bottom: 16px;
+        }
+
+        &-birthday-text {
+            font-weight: 400;
+        }
+
+        &-photo {
+            border-radius: 50%;
+            height: 96px;
+            margin-top: -48px;
+            object-fit: cover;
+            width: 96px;
+        }
+    }
+
+    &__decoration {
+        position: absolute;
+
+        &:nth-of-type(1) {
+            left: 0;
+        }
+
+        &:nth-of-type(2) {
+            right: 0;
+        }
+    }
+
+    &__stats {
+        align-items: center;
+        border-top: 1px solid $grey-300;
+        display: flex;
+        font-weight: 500;
+        padding: 14px 2px;
+
+        &-svg {
+            margin-right: 6px;
+        }
+
+        &-count {
+            color: $grey-600;
+            font-size: $font-size-12;
+            margin-right: 14px;
+        }
+    }
+
+    &__wish {
+        cursor: pointer;
+
+        &--wished {
+            path:nth-child(1) {
+                fill: $yellow;
+            }
+
+            path:nth-child(2) {
+                fill: $red;
+            }
+        }
+    }
+}
