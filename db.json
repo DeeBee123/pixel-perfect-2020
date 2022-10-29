@@ -1,0 +1,3717 @@
+{
+  "instructions": [
+    {
+      "id": 1,
+      "instruction": "setup nvm"
+    },
+    {
+      "id": 2,
+      "instruction": "run 'nvm use' or just set the node version to the one in .nvmrc file"
+    },
+    {
+      "id": 3,
+      "instruction": "run 'npm install'"
+    },
+    {
+      "id": 5,
+      "instruction": "run 'npm run start-server'"
+    },
+    {
+      "id": 6,
+      "instruction": "run 'npm start'"
+    }
+  ],
+  "userData": {
+    "userName": "Aubrey Plaza",
+    "userImage": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+    "birthdayDate": "1990-05-18",
+    "location": "Kaunas, Lithuania",
+    "reservations": {
+      "books": [
+        {
+          "title": "Don't Make Me Think",
+          "id": "1jd85opw82"
+        }
+      ],
+      "devices": [
+        {
+          "name": "iPhone X",
+          "id": "193ywpe740"
+        }
+      ]
+    },
+    "notifications": [
+      {
+        "userName": "Sara Lars",
+        "actionType": "Like",
+        "postId": "10972har27"
+      },
+      {
+        "userName": "Luke Skywalker",
+        "actionType": "Wish",
+        "postId": "10973bar28"
+      },
+      {
+        "userName": "Jake Merc",
+        "actionType": "Comment",
+        "postId": "10974dar29"
+      },
+      {
+        "userName": "Max Frank",
+        "actionType": "Wish",
+        "postId": "10973bah28"
+      },
+      {
+        "userName": "Abraham Jo",
+        "actionType": "Comment",
+        "postId": "10973jah28"
+      },
+      {
+        "userName": "Wi so Lo",
+        "actionType": "Comment",
+        "postId": "10373bah28"
+      },
+      {
+        "userName": "Mike Pike",
+        "actionType": "Like",
+        "postId": "109a3bah28"
+      },
+      {
+        "userName": "Tom Lincoln",
+        "actionType": "Wish",
+        "postId": "1abh3bah28"
+      }
+    ]
+  },
+  "restaurants": {
+    "restaurantList": [
+      {
+        "name": "Grill London (Kaunas, PLC Mega)",
+        "id": "120wsdlpx4",
+        "description": "„Grill London” is a chain of grill restaurants that visitors love because of its exceptional and responsible take on food quality. All of its steaks are grilled in unique ceramic grills using ecological fuels.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "11 - 00"
+          }
+        ],
+        "website": "http://grilllondon.lt",
+        "address": "Islandijos pl. 32, Kaunas",
+        "phone": "+370 62793 122",
+        "image": "https://images.unsplash.com/photo-1498579485796-98be3abc076e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80",
+        "checkIns": 8,
+        "label": "London",
+        "dateAdded": "2019-11-11",
+        "reviews": [
+          {
+            "userName": "Luke Skywalker",
+            "id": "730tybsl12",
+            "comment": "Tasty burgers, but had to wait a long line.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Uncle Roger",
+            "id": "10f836s0pw",
+            "comment": "Didn't have fried rice, a bit disappointed.",
+            "rating": 3.5
+          },
+          {
+            "userName": "Sara Lars",
+            "id": "183gstwpl6",
+            "comment": "Food didn’t meet my expectations, but it was fine. But the customer experience was flawless!",
+            "rating": 5.0
+          },
+          {
+            "userName": "Wade Owen Watts",
+            "id": "183620uer",
+            "comment": "Good burgers, good price",
+            "rating": 4.0
+          }
+        ],
+        "categories": ["Burger", "Salads", "Grill"]
+      },
+      {
+        "name": "Jurgis ir Drakonas",
+        "id": "wtlztmw3rr",
+        "description": "Jurgis ir Drakonas make pizza for the real heroes. Real heroes understand the best quality. Our authenitic Neapolitan tradition pizza are made from real Italian 00 flour. Tomatoes grown under the hot Italian sun are ripe and rich, and Italian fior di latte mozzarella melts in your mouth.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "12 - 20"
+          }
+        ],
+        "website": "https://jurgisirdrakonas.lt",
+        "address": "Kurpių g. 26, Kaunas",
+        "phone": "+370 672 00320",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2514&q=80",
+        "checkIns": 12,
+        "label": "Italy",
+        "dateAdded": "2020-11-25",
+        "reviews": [
+          {
+            "userName": "Jefferson Gutierrez",
+            "id": "i8r7gpdpfi",
+            "comment": "Cosy outside seating, tasty food. Recommended for everyone who’s looking for nice dinner both inside or outside.",
+            "rating": 4.5
+          },
+          {
+            "userName": "Edgar Abbott",
+            "id": "0rqlywcr8c",
+            "comment": "Nice place, a lot of natural food, exclusive pizza. Ice cream which you can get only in this restaurant. Good place for children.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Samantha Henry",
+            "id": "9hku9agnj4",
+            "comment": "Ok pizza, good beer. Environment is better for family than for business traveler attempting to relax over dinner. Lots of kids.",
+            "rating": 3.0
+          },
+          {
+            "userName": "Edric Ingram",
+            "id": "fs6jf8u00z",
+            "comment": "Nice pizza, but not the best I had. Friendly staff, reasonably priced menu. Was very quiet when we visited.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Valerie Jordan",
+            "id": "3snsdmmxz1",
+            "comment": "Hated it.",
+            "rating": 1.0
+          },
+          {
+            "userName": "Samuel Frost",
+            "id": "wdni7vwbuy",
+            "comment": "Most awesome pizza I ever had!",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Salads", "Pizza", "Pancakes", "Soups"]
+      },
+      {
+        "name": "Mamma Pizza",
+        "id": "7et2tk3ih1",
+        "description": "Small, but very cozy place in the center of Kaunas, very tasty food with vegetarian options, vegan too. Super friendly staff.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "10 - 23"
+          }
+        ],
+        "website": "http://www.mammapizza.lt",
+        "address": "Vytauto prospektas 37, Kaunas",
+        "phone": "+370 680 97977",
+        "image": "https://images.unsplash.com/photo-1589906493606-a6ca2a06078b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyNjA3NH0&auto=format&fit=crop&w=2550&q=80",
+        "checkIns": 6,
+        "label": "Italy",
+        "dateAdded": "2020-01-15",
+        "reviews": [
+          {
+            "userName": "Eloise Matthews",
+            "id": "o0qtbt1x97",
+            "comment": "One of The best Pizza in town. Good fresh juice. Family friendly and quite nice music.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Marc Baxter",
+            "id": "n2jebjv5kc",
+            "comment": "Good, but nothing special.",
+            "rating": 2.5
+          },
+          {
+            "userName": "Stewart Henry",
+            "id": "iyvfh3hlqj",
+            "comment": "We ordered two pizzas. Both were almost cold when served (it was not busy time). Beer and cider one the other hand were warm on a day of 30 degrees celsius.",
+            "rating": 1.0
+          },
+          {
+            "userName": "Travis Farmer",
+            "id": "5bcbeuz4py",
+            "comment": "The best pizza`s in Kaunas. Very delicious, quality ingredients, very kind and good service and affordable prices. Must visit.",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Pizza"]
+      },
+      {
+        "name": "MOMO Grill Kaunas",
+        "id": "x8bd7ozuj6",
+        "description": "Chef and owner of MOMO GRILL is widely known for his international experience, but what he’s actually FEELING can only be revealed after taking a bite, a spoonful or otherwise sampling his cooking. Knowledge AND feelings. Seasons AND emotions. Flavour AND memories. Sometimes it’s so simple that it can even be complicated.",
+        "openingHours": [
+          {
+            "days": "Tuesday - Sunday",
+            "hours": "11 - 23"
+          }
+        ],
+        "website": "https://momogrill.lt",
+        "address": "Karaliaus Mindaugo avenue 18a, Kaunas",
+        "phone": "+370 37 297488",
+        "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+        "checkIns": 18,
+        "label": "America",
+        "dateAdded": "2020-12-17",
+        "reviews": [
+          {
+            "userName": "Derek Daves",
+            "id": "8m69jg4evv",
+            "comment": "Very tasty, good service, nice ambience, good location. 10 points ;) Mimosas, soups, beef, coffee, ice cream.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Chase Oliver",
+            "id": "ektcqbs4m5",
+            "comment": "Nice place in downtown of Kaunas. Tasty food. Cosy accomodation. Perfect dishes. Highly reccomend for friends, business and family.",
+            "rating": 4.5
+          },
+          {
+            "userName": "Frank Hurlbutt",
+            "id": "c8l9pelpnv",
+            "comment": "I don't really like meat.",
+            "rating": 2.5
+          },
+          {
+            "userName": "Samson Jensen",
+            "id": "6hmnta6rse",
+            "comment": "My favorite restaurant in Kaunas for brunch, lunch, dinner or sweet dessert!",
+            "rating": 4.0
+          },
+          {
+            "userName": "Matt Hodges",
+            "id": "jw2ugddcg5",
+            "comment": "Great service, very good food. Every time it is worth to come back.",
+            "rating": 4.5
+          },
+          {
+            "userName": "Nina Bowen",
+            "id": "afr99kdf9q",
+            "comment": "I love good steak and this is the best one i can get in Kaunas city.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Lance Marrow",
+            "id": "awuiaohbks",
+            "comment": "I like the food there. The meat is so nicely grilled!",
+            "rating": 4.5
+          },
+          {
+            "userName": "Tommy Nelson",
+            "id": "gf77pv4o1n",
+            "comment": "Best brunch in town! Egg Benedicts and English breakfast was really very delicious! Best wishes, can't wait to come back!",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Grill", "Sweets", "Brunch"]
+      },
+      {
+        "name": "Restoranas Siesta",
+        "id": "3gogeanl0p",
+        "description": "Delicious food, cozy atmosphere, family friendly",
+        "openingHours": [
+          {
+            "days": "Monday - Saturday",
+            "hours": "12 - 22"
+          }
+        ],
+        "website": "https://restoranassiesta.lt",
+        "address": "Pakrantes g. 4 Vareikonys, Kauno r., Kaunas",
+        "phone": "+370 614 98198",
+        "image": "https://images.unsplash.com/photo-1598343214618-dd202db9ad20?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+        "checkIns": 5,
+        "label": "Europe",
+        "dateAdded": "2020-10-26",
+        "reviews": [
+          {
+            "userName": "Rocky Thornton",
+            "id": "x1y6iixy5l",
+            "comment": "Beautiful restaurant in the centre of Lithuania next to highway Klaipėda-Kaunas. Delicious food, nice choice, good local and imported drinks.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Laurel Robbins",
+            "id": "8s3qu8d6so",
+            "comment": "Too fancy for my taste.",
+            "rating": 2.5
+          },
+          {
+            "userName": "Bud Harris",
+            "id": "c8l9pelpnv",
+            "comment": "Excellent place, excellent food, perfect service, nice view. I will come back next time and save some space for desert.",
+            "rating": 5
+          }
+        ],
+        "categories": ["Salads", "Grill", "Soups"]
+      },
+      {
+        "name": "Restoranas DIA",
+        "id": "porhch2lam",
+        "description": "We are ready to arrange you an unforgettable celebration, restaurant staff will take care about all the smolest details: decorate the hall, arrange musicians, agree the celebration menu with the customer, will make all kinds of world cuisine dishes.",
+        "openingHours": [
+          {
+            "days": "Wednesday - Sunday",
+            "hours": "11 - 23"
+          }
+        ],
+        "website": "http://restoranasdia.lt",
+        "address": "Maironio G. 9, Kaunas",
+        "phone": "+370 655 80308",
+        "image": "https://images.unsplash.com/photo-1516685018646-549198525c1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "checkIns": 15,
+        "label": "France",
+        "dateAdded": "2020-12-05",
+        "reviews": [
+          {
+            "userName": "Blossom Schuman",
+            "id": "oqk2m7wtlz",
+            "comment": "We visited with friends. Great service, very tasty food, cozy environment. The prices are quite high but the quality is good.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Henrietta Fields",
+            "id": "tmw3rri8r7",
+            "comment": "Soup was ok, reminded me of a ragu that had been transformed into a soup. Nothing special but ok.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Halsey Cress",
+            "id": "gpdpfi0rql",
+            "comment": "One of the goals during our trip to Kaunas was to visit Dia. The restaurant has been listed in top 30 best restaurants in Lithuania and despite the fact, I did not hear that much buzz around it.",
+            "rating": 5
+          },
+          {
+            "userName": "Warwick Brooks",
+            "id": "ywcr8c9hku",
+            "comment": "Best food in town, always!",
+            "rating": 5
+          },
+          {
+            "userName": "Whitney Rehbein",
+            "id": "9agnj4fs6j",
+            "comment": "Good choice for tasty meals and good service, nice interior. The place, where I'd like to come back again.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Ford Meskill",
+            "id": "f8u00z3sns",
+            "comment": "Very good quality and well presented.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Geoffrey Howe",
+            "id": "dmmxz1wdni",
+            "comment": "Best dining experience in Kaunas",
+            "rating": 4.5
+          }
+        ],
+        "categories": ["Salads", "Grill", "Brunch", "Soups"]
+      },
+      {
+        "name": "Agave",
+        "id": "tk3ih1o0qt",
+        "description": "An exceptional mexican restaurant.",
+        "openingHours": [
+          {
+            "days": "Monday - Friday",
+            "hours": "12 - 22"
+          }
+        ],
+        "website": "https://www.facebook.com/agaverestoranas",
+        "address": "Rotuses a. 3 Rotuses Square, Kaunas",
+        "phone": "+370 616 98496",
+        "image": "https://images.unsplash.com/photo-1584208632869-05fa2b2a5934?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1850&q=80",
+        "checkIns": 9,
+        "label": "Mexico",
+        "dateAdded": "2020-12-05",
+        "reviews": [
+          {
+            "userName": "Laura Palmer",
+            "id": "bt1x97n2je",
+            "comment": "Best Mexican place in Kaunas for sure. Appetizers, main course, dessert, all are on the high level.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Dale Cooper",
+            "id": "bjv5kciyvf",
+            "comment": "We had a pleasant experience.",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Salads", "Grill", "Pancakes"]
+      },
+      {
+        "name": "Moksha",
+        "id": "h3hlqj5bcb",
+        "description": "Moksha is small restaurant serving pescatarian (fish & vegan) pan-asian food with a healthy twist. Majority of the food we serve is vegan. We make non traditional kimchis, kombuchas, lemonades, vegan ice-creams and vegan cakes free from added sugar.",
+        "openingHours": [
+          {
+            "days": "Monday - Friday",
+            "hours": "11 - 21"
+          }
+        ],
+        "website": "https://www.facebook.com/CafeMoksha",
+        "address": "Vasario 16-osios g. 6-1, Kaunas",
+        "phone": "+370 676 71649",
+        "image": "https://images.unsplash.com/photo-1483918793747-5adbf82956c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+        "checkIns": 19,
+        "label": "India",
+        "dateAdded": "2020-11-09",
+        "reviews": [
+          {
+            "userName": "Pandora Burns",
+            "id": "euz4pyx8bd",
+            "comment": "I would never usually consider going to a vegan/vegetarian restaurant but now I will because this place was so good!",
+            "rating": 5.0
+          },
+          {
+            "userName": "Mabel Mckinney",
+            "id": "7ozuj68m69",
+            "comment": "Wonderful place!",
+            "rating": 5.0
+          },
+          {
+            "userName": "Elvira Gill",
+            "id": "jg4evvektc",
+            "comment": "Best place for environmentaly-conscious people in Kaunas!",
+            "rating": 4.5
+          },
+          {
+            "userName": "Hadden Barrett",
+            "id": "qbs4m5c8l9",
+            "comment": "Amazing food. Freshly prepared.",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Salads", "Ramen"]
+      },
+      {
+        "name": "Avilys",
+        "id": "pelpnv6hmn",
+        "description": "To enjoy the beer made in restaurant’s cellar’s brewery. Avilys produce LIVE, unfiltered, unpasteurized beer. Our brand is beer with Lithuanian honey. During the beer tour and tasting we‘ll introduce you with all the specifics of AVILYS beer making. We’ll show you the inside of the brewery too.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "12 - 00"
+          }
+        ],
+        "website": "https://avilys.lt",
+        "address": "Vilniaus g. 34, Kaunas",
+        "phone": "+370 699 66239",
+        "image": "https://images.unsplash.com/photo-1586999763660-2a8730809450?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+        "checkIns": 10,
+        "label": "Europe",
+        "dateAdded": "2020-10-10",
+        "reviews": [
+          {
+            "userName": "Samantha Pena",
+            "id": "ta6rsejw2u",
+            "comment": "Went twice in a week, and would go again.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Roger Hudson",
+            "id": "gddcg5afr9",
+            "comment": "We enjoyed our meal here. The vaulted basement is quite atmospheric. The fried bread with cheese starter was a meal in itself. The food was very good, along with the service. Tried the beer of course.",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Burger", "Sandwich"]
+      },
+      {
+        "name": "Katpedele",
+        "id": "9kdf9qawui",
+        "description": "Traditional Lithuanian cuisine - experience the most popular national meals, discover new tastes! The interior and the atmosphere is created to resemble unique old village style.",
+        "openingHours": [
+          {
+            "days": "Monday - Friday",
+            "hours": "10 - 22"
+          }
+        ],
+        "website": "https://www.katpedele.lt/",
+        "address": "V. Kreves pr. 57, Kaunas",
+        "phone": "+370 620 66323",
+        "image": "https://images.unsplash.com/photo-1571139318929-bb90d382dbd8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "checkIns": 2,
+        "label": "Eastern Europe",
+        "dateAdded": "2020-12-06",
+        "reviews": [
+          {
+            "userName": "Carl Rodriquez",
+            "id": "aohbksgf77",
+            "comment": "Very tasty food, nice place, good service, tasty coctails.",
+            "rating": 3.0
+          },
+          {
+            "userName": "Derick Dinwiddie",
+            "id": "pv4o1n3gog",
+            "comment": "Great and nice place, delicious Lithuanian food and good atmosphere.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Mia Bird",
+            "id": "eanl0px1y6",
+            "comment": "Didn't really like the food here.",
+            "rating": 3.0
+          },
+          {
+            "userName": "Phyllis Adkins",
+            "id": "iixy5l8s3q",
+            "comment": "Nice place for family dinner.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Dana Castillo",
+            "id": "u8d6soporh",
+            "comment": "Perfect, friendly and fast service, delicious Lithuanian food.",
+            "rating": 4.5
+          }
+        ],
+        "categories": ["Kebab", "Sweets"]
+      },
+      {
+        "name": "Sushi Masters",
+        "id": "ch2lamoqk2",
+        "description": "A great suhi place.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "11 - 22"
+          }
+        ],
+        "website": "https://www.facebook.com/sushimasterskaunas",
+        "address": "Sv. Gertrudos g. 39a 39a, Kaunas",
+        "phone": "+370 635 09000",
+        "image": "https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80",
+        "checkIns": 8,
+        "label": "Japan",
+        "dateAdded": "2020-01-02",
+        "reviews": [
+          {
+            "userName": "Vania Walters",
+            "id": "m7wtlztmw3",
+            "comment": "Taste is perfect, but prices are very high and portions too small for this price.",
+            "rating": 4.0
+          }
+        ],
+        "categories": ["Sushi", "Soups"]
+      },
+      {
+        "name": "Talutti - Fresh and Tasty",
+        "id": "rri8r7gpdp",
+        "description": "Nothing can be better than eating good pancakes.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "11 - 23"
+          }
+        ],
+        "website": "https://talutti.lt",
+        "address": "Taikos pr. 12, Kaunas",
+        "phone": "+370 656 68999",
+        "image": "https://images.unsplash.com/photo-1519676867240-f03562e64548?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+        "checkIns": 12,
+        "label": "the world",
+        "dateAdded": "2021-01-07",
+        "reviews": [
+          {
+            "userName": "Emily Tyler",
+            "id": "fi0rqlywcr",
+            "comment": "Cozy and nice place to have a brunch :) Tasty and fresh food, a lot of different options in the menu, prices not so high as well.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Arnold Mason",
+            "id": "8c9hku9agn",
+            "comment": "Good prices, great food.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Hazel Strickland",
+            "id": "j4fs6jf8u0",
+            "comment": "I’m a local, I can say this is my favourite restaurant in town! Very reasonably priced, big portions, delicious food and just a great atmosphere!",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Burger", "Brunch", "Pancakes"]
+      },
+      {
+        "name": "ieti",
+        "id": "0z3snsdmmx",
+        "description": "Relax and enjoy old town.",
+        "openingHours": [
+          {
+            "days": "Monday - Friday",
+            "hours": "12 - 22"
+          }
+        ],
+        "website": "http://www.ieti.lt",
+        "address": "Rotušės a. 6, Kaunas",
+        "phone": "+370 626 85228",
+        "image": "https://images.unsplash.com/photo-1581755386038-f959f0d4a1dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1971&q=80",
+        "checkIns": 4,
+        "label": "Europe",
+        "dateAdded": "2020-09-13",
+        "reviews": [
+          {
+            "userName": "Herbert Madron",
+            "id": "z1wdni7vwb",
+            "comment": "Almost all other reviews about this restaurant praise it very highly indeed. And they are quite correct!",
+            "rating": 5.0
+          },
+          {
+            "userName": "Milo Conner",
+            "id": "uy7et2tk3i",
+            "comment": "Very cosy and nice place to eat.",
+            "rating": 4.5
+          },
+          {
+            "userName": "Roxanne Bowman",
+            "id": "h1o0qtbt1x",
+            "comment": "I liked the interior.",
+            "rating": 3.0
+          },
+          {
+            "userName": "John Dunn",
+            "id": "97n2jebjv5",
+            "comment": "The combination of flavours is inspired.",
+            "rating": 5
+          },
+          {
+            "userName": "Ken Moss",
+            "id": "kciyvfh3hl",
+            "comment": "Had a great lunch here today. Interesting food with Lithuanian seasonal products.",
+            "rating": 5
+          }
+        ],
+        "categories": ["Sweets"]
+      },
+      {
+        "name": "Pas Stanley",
+        "id": "qj5bcbeuz4",
+        "description": "Welcome to our house! We are humble and honoured for your stay at our place – a place which, we hope, will give you a warm and friendly experience and where you want to return to!",
+        "openingHours": [
+          {
+            "days": "Monday - Friday",
+            "hours": "10 - 22"
+          }
+        ],
+        "website": "http://pas-stanley.com",
+        "address": "Vilniaus g. 24, Kaunas",
+        "phone": "+370 650 36506",
+        "image": "https://images.unsplash.com/photo-1588168333986-5078d3ae3976?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80",
+        "checkIns": 11,
+        "label": "Europe",
+        "dateAdded": "2020-09-10",
+        "reviews": [
+          {
+            "userName": "Zach Robinson",
+            "id": "pyx8bd7ozu",
+            "comment": "Delicious homemade lemonade.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Cedric Fairbank",
+            "id": "j68m69jg4e",
+            "comment": "A nice relaxed place just off the old town square. Nice decor and layout, kind of a hybrid between a traditional restaurant and a bar.",
+            "rating": 4.5
+          }
+        ],
+        "categories": ["Kebab", "Ramen", "Burger"]
+      },
+      {
+        "name": "Lithuanian Pub Entry",
+        "id": "vvektcqbs4",
+        "description": "Full plates. Reasonable prices. Good vibes only. Come and see!",
+        "openingHours": [
+          {
+            "days": "Wednesday - Sunday",
+            "hours": "11 - 23"
+          }
+        ],
+        "website": "https://lithuanianpub.lt",
+        "address": "Vilniaus g. 26, Kaunas",
+        "phone": "+370 614 43332",
+        "image": "https://images.unsplash.com/photo-1559847844-d9d2bc807d82?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+        "checkIns": 3,
+        "label": "Europe",
+        "dateAdded": "2020-12-16",
+        "reviews": [
+          {
+            "userName": "Anastasia Norris",
+            "id": "m5c8l9pelp",
+            "comment": "Best chicken wings in town, quite big drinks assortiment. Good music.",
+            "rating": 4.5
+          }
+        ],
+        "categories": ["Salads", "Sandwich", "Kebab"]
+      },
+      {
+        "name": "Casa Della Pasta, pizzeria - restaurant",
+        "id": "nv6hmnta6r",
+        "description": "A story based on sacrifice, hard work and energy… Fabio Manconi started life with few privileges in his home town in Italy. Working in a family restaurant from a very young age, after school he waited for the right moment to get his first experiences abroad… From London, Sydney and Hong Kong, following his heart, he arrived in Kaunas, where he settled down and decided to pursue his dream. A dream called Casa della pasta.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "10 - 23"
+          }
+        ],
+        "website": "http://www.italurestoranas.lt/",
+        "address": "Laisves al. 27, Kaunas",
+        "phone": "+370 633 44255",
+        "image": "https://images.unsplash.com/photo-1585238342024-78d387f4a707?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2000&q=80",
+        "checkIns": 13,
+        "label": "Italy",
+        "dateAdded": "2020-12-21",
+        "reviews": [],
+        "categories": ["Salads", "Sandwich", "Kebab"]
+      },
+      {
+        "name": "Vista Puode",
+        "id": "sejw2ugddc",
+        "description": "Which side of a chicken has the most feathers?",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "7 - 23"
+          }
+        ],
+        "website": "https://vistapuode.lt",
+        "address": "S. Daukanto g. 23, Kaunas",
+        "phone": "+370 693 63777",
+        "image": "https://images.unsplash.com/photo-1597667079555-78f5c6a05d2b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+        "checkIns": 7,
+        "label": "Europe",
+        "dateAdded": "2020-04-01",
+        "reviews": [
+          {
+            "userName": "Lisa Lambert",
+            "id": "g5afr99kdf",
+            "comment": "Nice place to eat. Food is nothing special, but it's good.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Henrietta Fennimore",
+            "id": "9qawuiaohb",
+            "comment": "Just the average food for higher than average prices. I would not recommend this for traditional lithuanian cousine.",
+            "rating": 2.5
+          },
+          {
+            "userName": "Miranda Barnes",
+            "id": "ksgf77pv4o",
+            "comment": "We booked a table for celebration, but no one told us that we will be able to order dishes just from the lunch meniu, that involves 4 dishes...",
+            "rating": 1.5
+          },
+          {
+            "userName": "Caesar Francis",
+            "id": "1n3gogeanl",
+            "comment": "Nice modern-folk restaurant.",
+            "rating": 4.0
+          }
+        ],
+        "categories": ["Burger", "Grill", "Sweets"]
+      },
+      {
+        "name": "Hop Doc Gastropub",
+        "id": "0px1y6iixy",
+        "description": "HOP DOC GASTROPUB - brand new addition to Kaunas Old Town. Located few steps from a main Vilnius street, we serve you modern interior, more than 100 kinds of beers, full bar & grill. Lunch specials from 12:00 till 15:00 on work days. Fresh oysters come in every Friday. Kitchen is open till 23:00 on weekdays and till 24:00 on weekends. We recommend You to book in advance.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "17 - 00"
+          }
+        ],
+        "website": "https://www.hopdoc.lt",
+        "address": "M. Dauksos g. 23, Kaunas",
+        "phone": "+370 37 227656",
+        "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80",
+        "checkIns": 17,
+        "label": "America",
+        "dateAdded": "2020-09-15",
+        "reviews": [
+          {
+            "userName": "Bob Morales",
+            "id": "0h4ozlq391",
+            "comment": "Brilliant food and tasty beer.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Skye Langstaff",
+            "id": "nkkjnc7cxg",
+            "comment": "Very tasty burgers. Cosy atmosphere just a few steps away from main old town street. Great place to eat and take few beers.",
+            "rating": 4.5
+          }
+        ],
+        "categories": ["Salads", "Sandwich", "Kebab"]
+      },
+      {
+        "name": "Al Cantuccio",
+        "id": "hvoirynmd4",
+        "description": "A family place.",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "13 - 19"
+          }
+        ],
+        "website": "https://www.facebook.com/Alcanntucio",
+        "address": "Muitines g. 1-2, Kaunas",
+        "phone": "+370 606 74114",
+        "image": "https://images.unsplash.com/photo-1559948271-7d5c98d2e951?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+        "checkIns": 0,
+        "label": "Italy",
+        "dateAdded": "2020-05-07",
+        "reviews": [
+          {
+            "userName": "Selena Jimenez",
+            "id": "n2bl8kadvn",
+            "comment": "Food was delicious. Staff efficient and well mannered.",
+            "rating": 4.0
+          },
+          {
+            "userName": "Unity Harding",
+            "id": "lhus7m385d",
+            "comment": "Gelato and iced coffee was very delicious.",
+            "rating": 4.5
+          },
+          {
+            "userName": "Ned Alexander",
+            "id": "fp45cjfzan",
+            "comment": "This is the top place in Kaunas to eat. Very nice inner yard with helpful staff. Very nice selection of pasta and tasty salads. We will definitely come back again.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Faye Macy",
+            "id": "1eb3pvwvyo",
+            "comment": "One of my favorite restaurants.",
+            "rating": 5.0
+          }
+        ],
+        "categories": ["Sweets", "Pancakes", "Ramen"]
+      },
+      {
+        "name": "ManGi",
+        "id": "jo9ihsvxr8",
+        "description": "Bar, fast food, street food",
+        "openingHours": [
+          {
+            "days": "Monday - Sunday",
+            "hours": "12 - 18"
+          }
+        ],
+        "website": "https://mangi.lt/",
+        "address": "Vilniaus gatve 36, Kaunas",
+        "phone": "+370 603 46129",
+        "image": "https://images.unsplash.com/photo-1561758033-d89a9ad46330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "checkIns": 2,
+        "label": "Street",
+        "dateAdded": "2021-01-03",
+        "reviews": [
+          {
+            "userName": "Wilona Burke",
+            "id": "je3qs6qt3a",
+            "comment": "Best hot dogs in the Universe.",
+            "rating": 5.0
+          },
+          {
+            "userName": "Ike Green",
+            "id": "oypfyedwjw",
+            "comment": "Very yummy, filling and interesting hotdogs. Friendly staff. Offering vegan sausages!",
+            "rating": 4.5
+          }
+        ],
+        "categories": ["Grill", "Kebab", "Burger", "Sushi"]
+      }
+    ],
+    "categories": [
+      "Burger",
+      "Salads",
+      "Grill",
+      "Ramen",
+      "Sandwich",
+      "Kebab",
+      "Pizza",
+      "Brunch",
+      "Pancakes",
+      "Sushi",
+      "Sweets",
+      "Soups"
+    ]
+  },
+  "devices": {
+    "deviceList": [
+      {
+        "name": "iPhone X",
+        "id": "193ywpe740",
+        "deviceType": "Mobile",
+        "os": "iOS",
+        "brand": "Apple",
+        "favourite": false,
+        "bookedUntil": "2021-02-13",
+        "quantity": 3,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/618ZI2Xyw%2BL._AC_SL1500_.jpg"
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Apple iPad (Wi-Fi, 32GB) - Gold",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Y5NYmG81L._SL1024_.jpg",
+        "favourite": true,
+        "brand": "Apple",
+        "os": "MacOS",
+        "id": "15631751598",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Apple iPhone 8 Plus (Red, 256GB)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71Erg2XbSrL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Apple",
+        "bookedUntil": "2021-08-11",
+        "os": "iOS",
+        "id": "1563182708",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Apple iPad\u00a0Air (10.5-inch, Wi-Fi, 64GB) - Gold",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51IqpNeYKPL._SL1024_.jpg",
+        "favourite": false,
+        "brand": "Apple",
+        "bookedUntil": "2021-09-19",
+        "os": "MacOS",
+        "id": "1563187740",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Apple iPad (Wi-Fi, 128GB) - Space Grey",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51x4j48wCpL._SL1024_.jpg",
+        "favourite": true,
+        "brand": "Apple",
+        "os": "MacOS",
+        "id": "1563189600",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Google Pixel 2 XL (18:9 Display, 64 GB) Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61bbH2ltBoL._SX679_.jpg",
+        "favourite": true,
+        "brand": "Google",
+        "os": "Android",
+        "id": "1563172087",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "HTC Desire 12 + (Cool Black, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/618QdV1wRwL._SL1000_.jpg",
+        "favourite": false,
+        "brand": "HTC",
+        "bookedUntil": "2021-08-10",
+        "os": "Android",
+        "id": "1563168222",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG W30 (Aurora Green, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71U08Cltx9L._SL1500_.jpg",
+        "favourite": false,
+        "brand": "LG",
+        "os": "Android",
+        "id": "1563168159",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG Q Stylus+ (Black, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51rlIbQUU-L._SL1047_.jpg",
+        "favourite": false,
+        "brand": "LG",
+        "bookedUntil": "2021-06-23",
+        "os": "Android",
+        "id": "1563168714",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG K9 4G LTE (Blue, 2GB RAM, 16GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61LReoT20JL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "LG",
+        "bookedUntil": "2021-02-12",
+        "os": "Android",
+        "id": "1563169526",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG K8 X240I (Black-Gold, 16GB)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/618qjwMajyL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "LG",
+        "bookedUntil": "2021-03-15",
+        "os": "Android",
+        "id": "1563171668",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG G6 (Black, FullVision)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71reMtgW8IL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "LG",
+        "os": "Android",
+        "id": "1563174727",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "LG K10 (16GB Dual SIM, Black-Gold)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61ivDQjctSL._SL1000_.jpg",
+        "favourite": false,
+        "brand": "LG",
+        "bookedUntil": "2021-08-18",
+        "os": "Android",
+        "id": "1563183678",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Accessories",
+        "name": "Logitech H110 Stereo Headset, Black & Grey",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71mgVSFom1L._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Logitech",
+        "bookedUntil": "2021-04-19",
+        "os": null,
+        "id": "1563182132",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Mirror Grey, 8GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51L78CjkwRL._SL1000_.jpg",
+        "favourite": false,
+        "brand": "One Plus",
+        "os": "Android",
+        "id": "1563167035",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Mirror Grey, 6GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51L78CjkwRL._SL1000_.jpg",
+        "favourite": false,
+        "brand": "One Plus",
+        "bookedUntil": "2021-04-23",
+        "os": "Android",
+        "id": "15631671181",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Almond, 8GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51jwcbqlWxL._SL1000_.jpg",
+        "favourite": true,
+        "brand": "One Plus",
+        "bookedUntil": "2021-09-12",
+        "os": "Android",
+        "id": "15631671182",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 (Red, 8GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51uWO-4ChCL._SL1000_.jpg",
+        "favourite": false,
+        "brand": "One Plus",
+        "os": "Android",
+        "id": "1563167188",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 6T McLaren Limited Edition (Speed Orange, 10GB RAM,256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51%2BWKvgaFJL._SL1000_.jpg",
+        "favourite": true,
+        "brand": "One Plus",
+        "os": "Android",
+        "id": "15631671880",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 6T (Midnight Black, 8GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61IOy90qTSL._SL1300_.jpg",
+        "favourite": false,
+        "brand": "One Plus",
+        "bookedUntil": "2021-09-16",
+        "os": "Android",
+        "id": "15631673541",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "OnePlus 7 Pro (Nebula Blue, 12GB RAM, 256GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51pS0wjqy3L._SL1000_.jpg",
+        "favourite": false,
+        "brand": "One Plus",
+        "os": "Android",
+        "id": "1563168802",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Philips Linea V Design (M350) Cordless Phone with Speaker, Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61Dx6cNJOeL._SL1250_.jpg",
+        "favourite": true,
+        "brand": "Philips",
+        "os": "Linux",
+        "id": "1563168018",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Gadgets and hardware",
+        "name": "Philips Hue Smart Light Starter Kit with 10W E27 Bulb (White & Color), Compatible with Amazon Alexa, Apple HomeKit, and The Google Assistant",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51u3-6AeGiL._SL1000_.jpg",
+        "favourite": true,
+        "brand": "Philips",
+        "os": null,
+        "id": "1563176859",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Accessories",
+        "name": "Philips BT50W/00 Portable Wireless Bluetooth Speaker, white",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dMHWcQ1BL._SL1443_.jpg",
+        "favourite": false,
+        "brand": "Philips",
+        "bookedUntil": "2021-03-18",
+        "os": null,
+        "id": "15631796877",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J4 (Black, 32GB) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61-koeG0vQL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-07-22",
+        "os": "Android",
+        "id": "1563175935",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A6 (Blue, 4GB RAM, 64GB Storage) with Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61SDmRMOj%2BL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563176345",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus Ceramic White, 12GB RAM, 1TB Storage",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61LFYmFlLuL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-03-14",
+        "os": "Android",
+        "id": "1563178141",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J4 Plus (Black, 2GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/713JPtGrJHL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-05-22",
+        "os": "Android",
+        "id": "1563179687",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A6 (Black, 4GB RAM, 64GB Storage) with Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61SCSEZRTdL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-04-17",
+        "os": "Android",
+        "id": "1563188037",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy Note 9 (Midnight Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61-3SaQysBL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-04-18",
+        "os": "Android",
+        "id": "1563189419",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi 6 (Gold, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41A5bmI8JNL.jpg",
+        "favourite": false,
+        "brand": "Xiomi",
+        "os": "Android",
+        "id": "1563168346",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi 6 (Rose Gold, 3GB RAM, 32GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41A5bmI8JNL.jpg",
+        "favourite": false,
+        "brand": "Xiomi",
+        "bookedUntil": "2021-08-25",
+        "os": "Android",
+        "id": "1563168802",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Mi Mix 2 (Black, 6GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41A5bmI8JNL.jpg",
+        "favourite": false,
+        "brand": "Xiomi",
+        "os": "Android",
+        "id": "1563171267",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi Note 4 (Grey, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81YxYZoHEHL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Xiomi",
+        "os": "Android",
+        "id": "1563171460",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi Note 5 Pro (Blue, 6GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71FIzR3BfDL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Xiomi",
+        "bookedUntil": "2021-07-15",
+        "os": "Android",
+        "id": "15631730333",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Redmi Note 4 (Black, 64GB)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81%2BABCJR0XL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Xiomi",
+        "os": "Android",
+        "id": "1563175445",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Mi Redmi Note 5 (3 GB RAM, 32 GB, Gold)",
+        "image": "https://img.gkbcdn.com/s3/p/2018-04-25/global-version-xiaomi-redmi-note-5-5-99-inch-3gb-32gb-smartphone-gold-1571985621989.jpg",
+        "favourite": false,
+        "brand": "Xiomi",
+        "os": "Android",
+        "id": "1563184161",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S9 (4GB RAM, 256GB Storage) Midnight Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41tztfhVW-L._SL1000_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563170945",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Blue, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61yRCT3lgQL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-04-28",
+        "os": "Android",
+        "id": "1563171925",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S9 Plus SM-G965FZKDINS (Midnight Black, 6GB RAM, 64GB Storage) Without Offer",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61BXWwb80hL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563173033",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Samsung Galaxy Tab A 7.0 Tablet (7 inch, 8GB, Wi-Fi + 4G Volte + Voice Calling), Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dU9YGVIUL._SL1200_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-06-10",
+        "os": "Android",
+        "id": "1563175150",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Samsung Galaxy Tab A 7.0 Tablet (7 inch, 8GB, Wi-Fi + 4G Volte + Voice Calling), Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dU9YGVIUL._SL1200_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-05-12",
+        "os": "Android",
+        "id": "1563175275",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus (Blue, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61fv4VZRQ7L._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-05-19",
+        "os": "Android",
+        "id": "15631755044",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Tablet",
+        "name": "Samsung Galaxy Tab A 2017 SM-T385NZDAINS Tablet (8 inch, 16GB, Wi-Fi + 4G LTE + Voice Calling), Gold",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71g4rGJKBTL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-08-21",
+        "os": "Android",
+        "id": "1563175504",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A8+ (Gold, 6GB RAM, 64GB Storage) with Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71KjwTnBCNL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-02-15",
+        "os": "Android",
+        "id": "1563175834",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (White, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/819OPU84B%2BL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563167118",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (White, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/819OPU84B%2BL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631671886",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A10 (Blue, 2GB RAM and 32GB) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71ftMiKUwbL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-02-24",
+        "os": "Android",
+        "id": "15631672599",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A20 (Gold, 3GB RAM, 32GB Storage) with No Cost EMI/Additional Exchange Offer",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81xZ9nTmxHL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-05-18",
+        "os": "Android",
+        "id": "15631672598",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Blue, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81eCI5lrCAL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631672597",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A2 Core (Blue, 1GB RAM, 16GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71z5NTng2GL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-08-16",
+        "os": "Android",
+        "id": "1563167259",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru FM Plus (SM-B110E/D, Dark Blue)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71j7xiYo-QL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Linux",
+        "id": "15631673542",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Black, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81J2Udk-2NL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-03-16",
+        "os": "Android",
+        "id": "15631673543",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy M40 (Seawater Blue, 6GB RAM, 128GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81IYq0D1rxL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631673544",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A30 (Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81lcrlBzZFL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-07-11",
+        "os": "Android",
+        "id": "1563167354",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Blue, 4GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81eCI5lrCAL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631674201",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A50 (Black, 6GB RAM, 64GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81J2Udk-2NL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-02-15",
+        "os": "Android",
+        "id": "1563167420",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A8 Star (Black, 6GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61F5WIQMg%2BL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-06-10",
+        "os": "Android",
+        "id": "15631674961",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A30 (White, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81AZ757zrGL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-09-14",
+        "os": "Android",
+        "id": "1563167496",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A30 (White, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81AZ757zrGL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-08-17",
+        "os": "Android",
+        "id": "1563167577",
+        "quantity": 9
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru FM Plus (SM-B110E/D, White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61yZV1l7D%2BL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-09-13",
+        "os": "Linux",
+        "id": "15631676781",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung EVO Plus Grade 1, Class 10 32GB MicroSDHC 95 MB/S Memory Card with SD Adapter (MB-MC32GA/IN)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41flNfpUo1L._SX466_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": null,
+        "id": "15631676782",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A10 (Black, 2GB RAM and 32GB) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71qJXXHQWXL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563167678",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Metro 313 (SM-B313E, Black)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71QHB16ZzUL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-07-14",
+        "os": "Linux",
+        "id": "15631677481",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Metro 313 (SM-B313E, Gold)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71MNgRR8kWL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Linux",
+        "id": "1563167748",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A8+ (Black, 6GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71ixEbKAu1L._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-08-19",
+        "os": "Android",
+        "id": "1563167890",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru Music 2 (SM-B310E, Blue)",
+        "image": "https://blueqore.com/wp-content/uploads/2018/02/guru3-1aefe-1.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Linux",
+        "id": "1563167952",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru Music 2 (SM-B310E, Blue)",
+        "image": "https://blueqore.com/wp-content/uploads/2018/02/guru3-1aefe-1.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Linux",
+        "id": "1563168018",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A70 (Blue, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81ewhyroADL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631682223",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru 1200 (GT-E1200, White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41g1dc%2B65iL.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Linux",
+        "id": "1563168222",
+        "quantity": 3
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru 1200 (GT-E1200, White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41g1dc%2B65iL.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-05-11",
+        "os": "Linux",
+        "id": "15631682821",
+        "quantity": 4
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus (Black, 8GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/619jtWsN0cL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563168282",
+        "quantity": 7
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Metro 313 (SM-B313E, Grey)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71eK72baU9L._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-06-26",
+        "os": "Linux",
+        "id": "1563168595",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10 Plus (White, 8GB RAM, 512GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61dvlh%2BCsqL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631687141",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Black, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61AUegCz3fL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "15631687142",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Black, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61AUegCz3fL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-05-12",
+        "os": "Android",
+        "id": "1563168766",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S10e (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51Mn%2B13UizL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563168846",
+        "quantity": 8
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Guru Music 2 (SM-B310E, Black)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61--zZV5y-L._SL1200_.jpg",
+        "favourite": true,
+        "brand": "Samsung",
+        "bookedUntil": "2021-08-20",
+        "os": "Linux",
+        "id": "1563168964",
+        "quantity": 0
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy A70 (Black, 6GB RAM, 128GB Storage) with No Cost EMI/Additional Exchange Offers",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81F2OEF3erL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "bookedUntil": "2021-02-14",
+        "os": "Android",
+        "id": "1563169643",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy J6 (Gold, 4GB RAM, 64GB Storage)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61yGk6vF-hL._SL1500_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563169834",
+        "quantity": 6
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Samsung Galaxy S9 (4GB RAM, 256GB Storage) Midnight Black",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41tztfhVW-L._SL1000_.jpg",
+        "favourite": false,
+        "brand": "Samsung",
+        "os": "Android",
+        "id": "1563170785",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Gadgets and hardware",
+        "name": "Dell 40WHr 4-Cell Primary Lithium-Ion Battery (FW1MN)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/510l2jVGsEL._SL1024_.jpg",
+        "favourite": false,
+        "brand": "Dell",
+        "os": null,
+        "id": "1569107985",
+        "quantity": 2
+      },
+      {
+        "deviceType": "Mobile",
+        "name": "Microsoft Lumia 950 XL (White)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/61bLFasBlbL._SL1000_.jpg",
+        "favourite": false,
+        "brand": "Microsoft",
+        "os": "Windows",
+        "id": "1563507285",
+        "quantity": 5
+      },
+      {
+        "deviceType": "Accessories",
+        "name": "SteelSeries Arctis 5 2019 Edition Gaming Headset (Black)",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/71QSJpHokIL._SL1500_.jpg",
+        "favourite": true,
+        "brand": "SteelSeries",
+        "os": null,
+        "id": "1563502885",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Laptop",
+        "name": "Dell Inspiration 15 3582",
+        "image": "https://images.kaina24.lt/9/82/dell-inspiron-3582.jpg",
+        "favourite": false,
+        "brand": "Dell",
+        "os": "Windows",
+        "id": "1563508385",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Laptop",
+        "name": "Apple introduces 16-inch MacBook Pro",
+        "image": "https://www.apple.com/newsroom/images/product/mac/standard/Apple_16-inch-MacBook-Pro_111319_LP_hero.jpg.og.jpg",
+        "favourite": true,
+        "brand": "Apple",
+        "os": "MacOS",
+        "id": "1563518885",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Laptop",
+        "name": "Xiaomi Mi Notebook Pro",
+        "image": "https://ae01.alicdn.com/kf/HTB1wVxnaLMTUeJjSZFKq6ygopXan/Xiaomi-Mi-Notebook-Air-Pro-15-6-Inch-Laptop-Intel-Core-i5-8250U-CPU-NVIDIA-8GB.jpg_640x640.jpg",
+        "favourite": true,
+        "brand": "Xiaomi",
+        "os": "Linux",
+        "id": "1563563285",
+        "quantity": 1
+      },
+      {
+        "deviceType": "Desktop",
+        "name": "iMac",
+        "image": "https://istore.lt/media/catalog/product/cache/1/small_image/504x/602f0fa2c1f0d1ba5e241f914e856ff9/i/m/imac21nonretina.png",
+        "favourite": true,
+        "brand": "Apple",
+        "os": "MacOS",
+        "id": "1563521285",
+        "quantity": 1
+      }
+    ],
+    "filterCategories": {
+      "deviceType": [
+        "Accessories",
+        "Desktop",
+        "Gadgets and hardware",
+        "Laptop",
+        "Mobile",
+        "Tablet"
+      ],
+      "os": ["MacOS", "iOS", "Android", "Windows", "Linux"],
+      "brand": [
+        "Apple",
+        "Dell",
+        "Google",
+        "HTC",
+        "LG",
+        "Logitech",
+        "Microsoft",
+        "One Plus",
+        "Philips",
+        "Razer",
+        "Samsung",
+        "SteelSeries",
+        "Xiaomi"
+      ]
+    }
+  },
+  "books": {
+    "bookList": [
+      {
+        "title": "Clean Code",
+        "id": "137420wgf0",
+        "author": "Robert Cecil Martin",
+        "genre": "Technology",
+        "favourite": false,
+        "rating": {
+          "score": 4.65,
+          "userCount": 17
+        },
+        "bookedUntil": null,
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41-+g1a2Y1L._SX375_BO1,204,203,200_.jpg"
+      },
+      {
+        "title": "Don't Make Me Think",
+        "id": "1jd85opw82",
+        "author": "Steve Krug",
+        "genre": "Technology",
+        "favourite": true,
+        "rating": {
+          "score": 4.5,
+          "userCount": 11
+        },
+        "bookedUntil": "2021-02-13",
+        "image": "https://d1w7fb2mkkr3kw.cloudfront.net/assets/images/book/lrg/9780/3219/9780321965516.jpg"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.12,
+          "userCount": 172
+        },
+        "title": "Front-End Reactive Architectures",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781484231791.png",
+        "author": "-",
+        "id": "9781484231791",
+        "bookedUntil": "2021-08-28"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.83,
+          "userCount": 46
+        },
+        "title": "Professional Website Performance",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781118487525.png",
+        "author": "-",
+        "id": "9781118487525",
+        "bookedUntil": "2021-03-24"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.73,
+          "userCount": 57
+        },
+        "title": "Front-end Development with ASP.NET Core, Angular, and Bootstrap",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781119181316.png",
+        "author": "-",
+        "id": "9781119181316",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.07,
+          "userCount": 47
+        },
+        "title": "Pro React",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781484212615.png",
+        "author": "-",
+        "id": "9781484212615",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.27,
+          "userCount": 47
+        },
+        "title": "Connecting Arduino to the Web",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781484234792.png",
+        "author": "-",
+        "id": "9781484234792",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.76,
+          "userCount": 174
+        },
+        "title": "Front-End Architecture",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781491926789.png",
+        "author": "-",
+        "id": "9781491926789",
+        "bookedUntil": "2021-09-18"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.75,
+          "userCount": 114
+        },
+        "title": "React for Real",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781680502633.png",
+        "author": "-",
+        "id": "9781680502633",
+        "bookedUntil": "2021-02-26"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.38,
+          "userCount": 68
+        },
+        "title": "Programming Elm",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781680502855.png",
+        "author": "-",
+        "id": "9781680502855",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.51,
+          "userCount": 168
+        },
+        "title": "Twitter Bootstrap Web Development How-To",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781849518826.png",
+        "author": "-",
+        "id": "9781849518826",
+        "bookedUntil": "2021-03-11"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.39,
+          "userCount": 13
+        },
+        "title": "Node for Front-End Developers",
+        "genre": "Technology",
+        "image": "https://itbook.store/img/books/9781449318833.png",
+        "author": "-",
+        "id": "9781449318833",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.65,
+          "userCount": 145
+        },
+        "title": "Fitzgerald's Greatest Stories: His 13 Most Notable Short Stories: Bernice Bobs Her Hair + The Curious Case of Benjamin Button + The Diamond as Big as the Ritz + Winter Dreams + Babylon Revisited and more...",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=n1NjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "F. Scott Fitzgerald",
+        "id": "n1NjDwAAQBAJ",
+        "bookedUntil": "2021-08-21"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.62,
+          "userCount": 42
+        },
+        "title": "Miss Dreamsville and the Collier County Women's Literary Society",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=4mmarVlnc8oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Amy Hill Hearth",
+        "id": "4mmarVlnc8oC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.78,
+          "userCount": 150
+        },
+        "title": "La Dame aux Cam\u00e9lias",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=57JoHdPqLkEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Alexandre Dumas",
+        "id": "57JoHdPqLkEC",
+        "bookedUntil": "2021-04-28"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.39,
+          "userCount": 111
+        },
+        "title": "How to Succeed in Murder",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=nhR58UIH1N4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Margaret Dumas",
+        "id": "nhR58UIH1N4C",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.96,
+          "userCount": 126
+        },
+        "title": "The Thirty-Ninth Regiment - Massachusetts Volunteers 1862-1865",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=Q9VaDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Alfred S. Roe",
+        "id": "Q9VaDwAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.17,
+          "userCount": 64
+        },
+        "title": "Scrumptious",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=btQdx_KuyPoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Amanda Usen",
+        "id": "btQdx_KuyPoC",
+        "bookedUntil": "2021-06-16"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.65,
+          "userCount": 32
+        },
+        "title": "\u5c11\u5e74\u7dad\u7279\u7684\u7169\u60f1(\u96d9\u8a9e\u7248)",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=hMtCDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "\u7d04\u7ff0\u00b7 \u6c83\u723e\u592b\u5ca1\u00b7 \u99ae\u00b7 \u6b4c\u5fb7",
+        "id": "hMtCDwAAQBAJ",
+        "bookedUntil": "2021-02-22"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.66,
+          "userCount": 56
+        },
+        "title": "Vanishing Ladies",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=UdDkDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Ed McBain",
+        "id": "UdDkDAAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.02,
+          "userCount": 144
+        },
+        "title": "The Lover's Knot",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=jbhtLNrheUYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Clare O'Donohue",
+        "id": "jbhtLNrheUYC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.58,
+          "userCount": 155
+        },
+        "title": "Grossir le ciel",
+        "genre": "Literary Fiction",
+        "image": "http://books.google.com/books/content?id=YYemCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Franck Bouysse",
+        "id": "YYemCwAAQBAJ",
+        "bookedUntil": "2021-04-13"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.08,
+          "userCount": 21
+        },
+        "title": "Off-Road Legends",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=dgtfDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Blake Hoena",
+        "id": "dgtfDwAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.62,
+          "userCount": 30
+        },
+        "title": "Double Or Die",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=ezsZAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Charles Higson",
+        "id": "ezsZAAAACAAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.13,
+          "userCount": 130
+        },
+        "title": "Sky Hammer",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=euRRPgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Don Pendleton",
+        "id": "euRRPgAACAAJ",
+        "bookedUntil": "2021-08-15"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.28,
+          "userCount": 110
+        },
+        "title": "Stormbreaker",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=SbjrAAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Anthony Horowitz",
+        "id": "SbjrAAAACAAJ",
+        "bookedUntil": "2021-02-26"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.34,
+          "userCount": 106
+        },
+        "title": "Season of Slaughter",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=OwKcLqznGawC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Don Pendleton",
+        "id": "OwKcLqznGawC",
+        "bookedUntil": "2021-02-28"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.05,
+          "userCount": 80
+        },
+        "title": "Renegade",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=sYE3XOtxxRUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Don Pendleton",
+        "id": "sYE3XOtxxRUC",
+        "bookedUntil": "2021-07-14"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.06,
+          "userCount": 195
+        },
+        "title": "Jimmy Coates",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=cU5oq4UOCyUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Joe Craig",
+        "id": "cU5oq4UOCyUC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.53,
+          "userCount": 106
+        },
+        "title": "Deep End",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=1_vdAxoQ6G8C&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Sam Hutton",
+        "id": "1_vdAxoQ6G8C",
+        "bookedUntil": "2021-08-17"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.66,
+          "userCount": 62
+        },
+        "title": "Aftershock",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=CNHrJrRbrPsC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Sam Fisher",
+        "id": "CNHrJrRbrPsC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.35,
+          "userCount": 112
+        },
+        "title": "Point of Betrayal",
+        "genre": "Action & Adventure",
+        "image": "http://books.google.com/books/content?id=I7ICc40cO9UC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Don Pendleton",
+        "id": "I7ICc40cO9UC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.9,
+          "userCount": 107
+        },
+        "title": "Robert Kennedy and His Times",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=0xqrU5lnD7AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Arthur Meier Schlesinger",
+        "id": "0xqrU5lnD7AC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.36,
+          "userCount": 136
+        },
+        "title": "Always By My Side",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=viEgDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Edward Grinnan",
+        "id": "viEgDgAAQBAJ",
+        "bookedUntil": "2021-08-26"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.82,
+          "userCount": 167
+        },
+        "title": "The Narrative Study of Lives",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=sD3b_jcGx_gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Amia Lieblich",
+        "id": "sD3b_jcGx_gC",
+        "bookedUntil": "2021-06-28"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.49,
+          "userCount": 175
+        },
+        "title": "Clinical Social Work",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=G_5SQ5kiQooC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Rachelle A. Dorfman",
+        "id": "G_5SQ5kiQooC",
+        "bookedUntil": "2021-05-28"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.88,
+          "userCount": 30
+        },
+        "title": "The Journal of Best Practices",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=7OE5mmdrNYMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "David Finch",
+        "id": "7OE5mmdrNYMC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.73,
+          "userCount": 190
+        },
+        "title": "Crazy Horse",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=0BRGYAsgPF4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Brenda Haugen",
+        "id": "0BRGYAsgPF4C",
+        "bookedUntil": "2021-09-22"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.44,
+          "userCount": 171
+        },
+        "title": "John J. Pershing",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=JccTct3j3DUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Tim McNeese",
+        "id": "JccTct3j3DUC",
+        "bookedUntil": "2021-07-11"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 4.95,
+          "userCount": 173
+        },
+        "title": "America's Pastor",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=LzwiBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Grant Wacker",
+        "id": "LzwiBQAAQBAJ",
+        "bookedUntil": "2021-04-27"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 3.27,
+          "userCount": 115
+        },
+        "title": "Pericles",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=XR2nDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Thomas R. Martin",
+        "id": "XR2nDAAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.92,
+          "userCount": 187
+        },
+        "title": "Bildungswege",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=myivDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Bettina Dausien",
+        "id": "myivDQAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.9,
+          "userCount": 107
+        },
+        "title": "Robert Kennedy and His Times",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=0xqrU5lnD7AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Arthur Meier Schlesinger",
+        "id": "0xqrU5lnD7AC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.36,
+          "userCount": 136
+        },
+        "title": "Always By My Side",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=viEgDgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Edward Grinnan",
+        "id": "viEgDgAAQBAJ",
+        "bookedUntil": "2021-08-26"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.82,
+          "userCount": 167
+        },
+        "title": "The Narrative Study of Lives",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=sD3b_jcGx_gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Amia Lieblich",
+        "id": "sD3b_jcGx_gC",
+        "bookedUntil": "2021-06-28"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.49,
+          "userCount": 175
+        },
+        "title": "Clinical Social Work",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=G_5SQ5kiQooC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Rachelle A. Dorfman",
+        "id": "G_5SQ5kiQooC",
+        "bookedUntil": "2021-05-28"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.88,
+          "userCount": 30
+        },
+        "title": "The Journal of Best Practices",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=7OE5mmdrNYMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "David Finch",
+        "id": "7OE5mmdrNYMC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.73,
+          "userCount": 190
+        },
+        "title": "Crazy Horse",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=0BRGYAsgPF4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Brenda Haugen",
+        "id": "0BRGYAsgPF4C",
+        "bookedUntil": "2021-09-22"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.44,
+          "userCount": 171
+        },
+        "title": "John J. Pershing",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=JccTct3j3DUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Tim McNeese",
+        "id": "JccTct3j3DUC",
+        "bookedUntil": "2021-07-11"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 4.95,
+          "userCount": 173
+        },
+        "title": "America's Pastor",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=LzwiBQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Grant Wacker",
+        "id": "LzwiBQAAQBAJ",
+        "bookedUntil": "2021-04-27"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 3.27,
+          "userCount": 115
+        },
+        "title": "Pericles",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=XR2nDAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Thomas R. Martin",
+        "id": "XR2nDAAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.92,
+          "userCount": 187
+        },
+        "title": "Bildungswege",
+        "genre": "Biographies & Autobiographies",
+        "image": "http://books.google.com/books/content?id=myivDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Bettina Dausien",
+        "id": "myivDQAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.34,
+          "userCount": 189
+        },
+        "title": "Martin Chuzzlewit",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=A2DG7mclawoC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Charles Dickens",
+        "id": "A2DG7mclawoC",
+        "bookedUntil": "2021-04-20"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 3.15,
+          "userCount": 162
+        },
+        "title": "David Balfour",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=gu78JKzMB2cC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Robert Louis Stevenson",
+        "id": "gu78JKzMB2cC",
+        "bookedUntil": "2021-06-21"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.59,
+          "userCount": 172
+        },
+        "title": "David Copperfield",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=GkCpLIk7aisC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Charles Dickens",
+        "id": "GkCpLIk7aisC",
+        "bookedUntil": "2021-04-11"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.69,
+          "userCount": 115
+        },
+        "title": "Ruth's Journey",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=u9O5BAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Donald McCaig",
+        "id": "u9O5BAAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.22,
+          "userCount": 65
+        },
+        "title": "Alicia anotada",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=s-PzdnbRpcQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Lewis Carroll",
+        "id": "s-PzdnbRpcQC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.09,
+          "userCount": 47
+        },
+        "title": "Homeri Opera: Odysseae, libri I-XII",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=W734o-AW5DkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Homer",
+        "id": "W734o-AW5DkC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.26,
+          "userCount": 198
+        },
+        "title": "The Metamorphosis",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=kPey0lFzMBYC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Franz Kafka",
+        "id": "kPey0lFzMBYC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.64,
+          "userCount": 156
+        },
+        "title": "Show Boat",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=k7zZAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Edna Ferber",
+        "id": "k7zZAAAAMAAJ",
+        "bookedUntil": "2021-04-16"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.53,
+          "userCount": 41
+        },
+        "title": "The Three Musketeers",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=vp--U7m0g-AC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Alexandre Dumas",
+        "id": "vp--U7m0g-AC",
+        "bookedUntil": "2021-03-24"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.54,
+          "userCount": 139
+        },
+        "title": "Tai-Pan",
+        "genre": "Classics",
+        "image": "http://books.google.com/books/content?id=GTLIj2RgQssC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "James Clavell",
+        "id": "GTLIj2RgQssC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.19,
+          "userCount": 71
+        },
+        "title": "Vintage Mystery and Detective Stories",
+        "genre": "Detective & Mystery",
+        "image": "http://books.google.com/books/content?id=84vD69aw4jkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "David Stuart Davies",
+        "id": "84vD69aw4jkC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.26,
+          "userCount": 64
+        },
+        "title": "State of Anger: A Thriller",
+        "genre": "Detective & Mystery",
+        "image": "http://books.google.com/books/content?id=f65IMQAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Thomas Scott",
+        "id": "f65IMQAACAAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.7,
+          "userCount": 143
+        },
+        "title": "The Maltese Goddess",
+        "genre": "Detective & Mystery",
+        "image": "http://books.google.com/books/content?id=v_hJXOo5GKUC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Lyn Hamilton",
+        "id": "v_hJXOo5GKUC",
+        "bookedUntil": "2021-09-28"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.73,
+          "userCount": 12
+        },
+        "title": "Gravy, Grits, and Graves",
+        "genre": "Detective & Mystery",
+        "image": "http://books.google.com/books/content?id=P6Oid9gXY3YC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Vicki Blair",
+        "id": "P6Oid9gXY3YC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.04,
+          "userCount": 160
+        },
+        "title": "Tether",
+        "genre": "Fantasy & Sci-Fi",
+        "image": "http://books.google.com/books/content?id=G_kBDAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Anna Jarzab",
+        "id": "G_kBDAAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.41,
+          "userCount": 84
+        },
+        "title": "The Mayan Prophecy",
+        "genre": "Fantasy & Sci-Fi",
+        "image": "http://books.google.com/books/content?id=PklalwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Alex Scarrow",
+        "id": "PklalwEACAAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.14,
+          "userCount": 62
+        },
+        "title": "Bedouin Justice",
+        "genre": "History & Historical Fiction",
+        "image": "http://books.google.com/books/content?id=6GuhlvJRB4oC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Austin Kennett",
+        "id": "6GuhlvJRB4oC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 4.17,
+          "userCount": 187
+        },
+        "title": "Metallurgy",
+        "genre": "History & Historical Fiction",
+        "image": "http://books.google.com/books/content?id=osAOAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "John Percy",
+        "id": "osAOAwAAQBAJ",
+        "bookedUntil": "2021-07-15"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.8,
+          "userCount": 133
+        },
+        "title": "Rural Economic Development in Japan",
+        "genre": "History & Historical Fiction",
+        "image": "http://books.google.com/books/content?id=EDe92_UFuLAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Penelope Francks",
+        "id": "EDe92_UFuLAC",
+        "bookedUntil": "2021-05-10"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.96,
+          "userCount": 14
+        },
+        "title": "A Protestant Purgatory",
+        "genre": "History & Historical Fiction",
+        "image": "http://books.google.com/books/content?id=DlOoDQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Laurie Throness",
+        "id": "DlOoDQAAQBAJ",
+        "bookedUntil": "2021-05-26"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.24,
+          "userCount": 152
+        },
+        "title": "Still Fighting the Civil War",
+        "genre": "History & Historical Fiction",
+        "image": "http://books.google.com/books/content?id=GOpJQ5ud_2MC&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "David Goldfield",
+        "id": "GOpJQ5ud_2MC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.64,
+          "userCount": 142
+        },
+        "title": "Diary of a Mad Mummy",
+        "genre": "Horror",
+        "image": "http://books.google.com/books/content?id=VULcHAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "R. L. Stine",
+        "id": "VULcHAAACAAJ",
+        "bookedUntil": "2021-04-11"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.99,
+          "userCount": 82
+        },
+        "title": "The Vampire's Photograph",
+        "genre": "Horror",
+        "image": "http://books.google.com/books/content?id=x5nPG6nwyOQC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Kevin Emerson",
+        "id": "x5nPG6nwyOQC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 4.15,
+          "userCount": 135
+        },
+        "title": "The Medusa Effect",
+        "genre": "Horror",
+        "image": "http://books.google.com/books/content?id=2en3CwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Thomas Albrecht",
+        "id": "2en3CwAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.54,
+          "userCount": 73
+        },
+        "title": "Tomfoolery and Tragedy",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=bBHnjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Keith Murphy",
+        "id": "bBHnjgEACAAJ",
+        "bookedUntil": "2021-08-13"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.11,
+          "userCount": 84
+        },
+        "title": "The Man Who Flew the Memphis Belle",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=jCIumAEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Robert Morgan",
+        "id": "jCIumAEACAAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 2.79,
+          "userCount": 150
+        },
+        "title": "Spiritual Atheist",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=K1U8uwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Nick Seneca Jankel",
+        "id": "K1U8uwEACAAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.98,
+          "userCount": 27
+        },
+        "title": "Inward Traveler",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=a8HHtwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Francine Toder",
+        "id": "a8HHtwEACAAJ",
+        "bookedUntil": "2021-03-25"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.8,
+          "userCount": 151
+        },
+        "title": "Whoa Yonder!",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=3HrUoQEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Keith Murphy",
+        "id": "3HrUoQEACAAJ",
+        "bookedUntil": "2021-05-10"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.41,
+          "userCount": 8
+        },
+        "title": "No Problem, Mr. Walt",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=EiZxswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Walt Hackman",
+        "id": "EiZxswEACAAJ",
+        "bookedUntil": "2021-06-13"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.39,
+          "userCount": 90
+        },
+        "title": "Live It",
+        "genre": "Memoir",
+        "image": "http://books.google.com/books/content?id=WDgZjgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+        "author": "Tracy Draper",
+        "id": "WDgZjgEACAAJ",
+        "bookedUntil": "2021-09-23"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.82,
+          "userCount": 180
+        },
+        "title": "The Becoming",
+        "genre": "Poetry",
+        "image": "http://books.google.com/books/content?id=5YHsDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Chetana A.",
+        "id": "5YHsDwAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 3.34,
+          "userCount": 11
+        },
+        "title": "The Dor\u00e9 Illustrations for Dante's Divine Comedy",
+        "genre": "Poetry",
+        "image": "http://books.google.com/books/content?id=R2TkMiHSOjUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Gustave Dor\u00e9",
+        "id": "R2TkMiHSOjUC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.83,
+          "userCount": 23
+        },
+        "title": "The Tyranny of Heaven",
+        "genre": "Poetry",
+        "image": "http://books.google.com/books/content?id=OF9sm2kTTgMC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Michael Bryson",
+        "id": "OF9sm2kTTgMC",
+        "bookedUntil": "2021-07-24"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.72,
+          "userCount": 168
+        },
+        "title": "Crime and Justice at the Millennium",
+        "genre": "Psychology & Self-Help",
+        "image": "http://books.google.com/books/content?id=qMHfBwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Robert A. Silverman",
+        "id": "qMHfBwAAQBAJ",
+        "bookedUntil": "2021-09-17"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.66,
+          "userCount": 142
+        },
+        "title": "Fever Dream",
+        "genre": "Psychology & Self-Help",
+        "image": "http://books.google.com/books/content?id=vs56YAA0gR8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Dennis Palumbo",
+        "id": "vs56YAA0gR8C",
+        "bookedUntil": "2021-03-12"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 0.63,
+          "userCount": 63
+        },
+        "title": "The Development of Young Children's Social-Cognitive Skills",
+        "genre": "Psychology & Self-Help",
+        "image": "http://books.google.com/books/content?id=cXK3AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Michael A. Forrester",
+        "id": "cXK3AQAAQBAJ",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 4.41,
+          "userCount": 19
+        },
+        "title": "How to Build a Thriving Fee-for-Service Practice",
+        "genre": "Psychology & Self-Help",
+        "image": "http://books.google.com/books/content?id=y3buUQb4hWkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Laurie Kolt",
+        "id": "y3buUQb4hWkC",
+        "bookedUntil": "2021-09-14"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 4.83,
+          "userCount": 93
+        },
+        "title": "Dare to Love",
+        "genre": "Romance",
+        "image": "http://books.google.com/books/content?id=ugbmAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Carly Phillips",
+        "id": "ugbmAgAAQBAJ",
+        "bookedUntil": "2021-09-14"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.11,
+          "userCount": 13
+        },
+        "title": "The Water Nymph",
+        "genre": "Romance",
+        "image": "http://books.google.com/books/content?id=OWKtdW6VA7UC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Michele Jaffe",
+        "id": "OWKtdW6VA7UC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 4.92,
+          "userCount": 172
+        },
+        "title": "Beneath a Texas Sky",
+        "genre": "Romance",
+        "image": "http://books.google.com/books/content?id=vSl2XQcXKRYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Rebecca Winters",
+        "id": "vSl2XQcXKRYC",
+        "bookedUntil": "2021-02-22"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.39,
+          "userCount": 61
+        },
+        "title": "The Glass Menagerie",
+        "genre": "Romance",
+        "image": "http://books.google.com/books/content?id=tWbVwZjv43kC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Tennessee Williams",
+        "id": "tWbVwZjv43kC",
+        "bookedUntil": "2021-02-26"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.44,
+          "userCount": 99
+        },
+        "title": "Fawcetta",
+        "genre": "Romance",
+        "image": "http://books.google.com/books/content?id=Ecp_b50eIboC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Dalian Artanian",
+        "id": "Ecp_b50eIboC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.7,
+          "userCount": 23
+        },
+        "title": "Emmie and Roger",
+        "genre": "Romance",
+        "image": "http://books.google.com/books/content?id=_Zl8AQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Richard Greeley",
+        "id": "_Zl8AQAAQBAJ",
+        "bookedUntil": "2021-04-15"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.95,
+          "userCount": 172
+        },
+        "title": "Doing Research on Crime and Justice",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=Il2GbeyQb5gC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Roy King",
+        "id": "Il2GbeyQb5gC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.06,
+          "userCount": 108
+        },
+        "title": "Crime Policy in America",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=whWL6D83FBUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Shahid M. Shahidullah",
+        "id": "whWL6D83FBUC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 0.75,
+          "userCount": 66
+        },
+        "title": "Criminological Theories",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=HoyDXRCVtAAC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Imogene Moyer",
+        "id": "HoyDXRCVtAAC",
+        "bookedUntil": "2021-05-19"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.65,
+          "userCount": 113
+        },
+        "title": "Major Barbara",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=1QpAingDeXkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "George Bernard Shaw",
+        "id": "1QpAingDeXkC",
+        "bookedUntil": "2021-03-28"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.27,
+          "userCount": 20
+        },
+        "title": "Criminology and Public Policy",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=koAnv3NRfY8C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Hugh Barlow",
+        "id": "koAnv3NRfY8C",
+        "bookedUntil": "2021-09-12"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.78,
+          "userCount": 136
+        },
+        "title": "The Critical Criminology Companion",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=XAdU6T5jIkEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Thalia Anthony",
+        "id": "XAdU6T5jIkEC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 2.03,
+          "userCount": 20
+        },
+        "title": "Criminal Justice in Ireland",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=zx422jZOYfkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Paul O'Mahony",
+        "id": "zx422jZOYfkC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 3.07,
+          "userCount": 155
+        },
+        "title": "Crime and Violence in Latin America",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=H7Ge7kkOCIkC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "H. Hugo Fr\u00fchling",
+        "id": "H7Ge7kkOCIkC",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": true,
+        "rating": {
+          "score": 1.66,
+          "userCount": 32
+        },
+        "title": "What is Crime?",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=2l36DmN5r10C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Stuart Henry",
+        "id": "2l36DmN5r10C",
+        "bookedUntil": "null"
+      },
+      {
+        "favourite": false,
+        "rating": {
+          "score": 1.98,
+          "userCount": 99
+        },
+        "title": "Public Criminology?",
+        "genre": "True Crime",
+        "image": "http://books.google.com/books/content?id=lTSQBi1pgkYC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
+        "author": "Ian Loader",
+        "id": "lTSQBi1pgkYC",
+        "bookedUntil": "2021-09-22"
+      }
+    ],
+    "filterCategories": {
+      "genre": [
+        "True Crime",
+        "Romance",
+        "Technology",
+        "Psychology & Self-Help",
+        "Poetry",
+        "Horror",
+        "Literary Fiction",
+        "Memoir",
+        "Fantasy & Sci-Fi",
+        "Graphic Novel",
+        "History & Historical Fiction",
+        "Classics",
+        "Detective & Mystery",
+        "Business",
+        "Biographies & Autobiographies",
+        "Action & Adventure"
+      ]
+    }
+  },
+  "weather": [
+    {
+      "weekDay": "Monday",
+      "type": "Cloudy",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+11",
+      "wind": "6 m/s",
+      "precipitation": "0 mm"
+    },
+    {
+      "weekDay": "Tuesday",
+      "type": "Sunny",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+19",
+      "wind": "0.5 m/s",
+      "precipitation": "0 mm"
+    },
+    {
+      "weekDay": "Wednesday",
+      "type": "Light shower",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+13",
+      "wind": "4 m/s",
+      "precipitation": "6 mm"
+    },
+    {
+      "weekDay": "Thursday",
+      "type": "Cloudy",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+7",
+      "wind": "9 m/s",
+      "precipitation": "0 mm"
+    },
+    {
+      "weekDay": "Friday",
+      "type": "Light shower",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+6",
+      "wind": "10 m/s",
+      "precipitation": "7 mm"
+    },
+    {
+      "weekDay": "Saturday",
+      "type": "Thunderstorm",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "+3",
+      "wind": "12 m/s",
+      "precipitation": "22 mm"
+    },
+    {
+      "weekDay": "Sunday",
+      "type": "Snow",
+      "location": "Vilnius, Lithuania",
+      "degreesInCelsius": "-3",
+      "wind": "4 m/s",
+      "precipitation": "13 mm"
+    }
+  ],
+  "stories": [
+    {
+      "type": "birthday",
+      "id": "a402h593er",
+      "userName": "Uncle Roger",
+      "userImage": "https://images.unsplash.com/photo-1517070208541-6ddc4d3efbcb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1987-10-31",
+      "wishes": 15,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-10-31T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-10-31T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10972har27",
+      "userName": "Dwayne Johnson",
+      "userImage": "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "LDN",
+      "postDate": "2020-11-05T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1573339886518-264aa6f194b2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "likes": 15,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-06T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-05T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-05T18:48:00.000Z"
+        },
+        {
+          "userName": "Selena Jimenez",
+          "comment": "Ah, we went there last week. Would have been nice to meet up.",
+          "date": "2020-11-05T19:48:00.000Z"
+        },
+        {
+          "userName": "Whitney Rehbein",
+          "comment": "Someone's finally fancy to share their adventures!",
+          "date": "2020-11-08T20:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "id": "1973ayt36o",
+      "userName": "Wade Owen Watts",
+      "userImage": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2062&q=80",
+      "postLocation": "VLN",
+      "postDate": "2020-11-08T10:27:00.000Z",
+      "postCover": "https://storage.coverr.co/t/Q4G3nDsk01ZRFR9o7HjBzTFkcgXE90101NA",
+      "postVideo": "https://storage.coverr.co/videos/Q4G3nDsk01ZRFR9o7HjBzTFkcgXE90101NA?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA1MTAzNjE2fQ.c7AVDx6JgY1Rv9rSiUqxM47dMzTrmzOsFEJWxd5wK8k",
+      "likes": 27,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-06T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-06T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-07T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10973urh40",
+      "userName": "Anastasia Norris",
+      "userImage": "https://images.unsplash.com/photo-1502823403499-6ccfcf4fb453?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "KUN",
+      "postDate": "2020-11-13T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1605073503373-24ea357e74c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=882&q=80",
+      "likes": 15,
+      "comments": [
+        {
+          "userName": "Aubrey Plaza",
+          "comment": "Beautiful! Where did you hike?",
+          "date": "2020-11-16T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "1076yerh40",
+      "userName": "Carl Rodriquez",
+      "userImage": "https://images.unsplash.com/photo-1499996860823-5214fcc65f8f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1002&q=80",
+      "postLocation": "CHI",
+      "postDate": "2020-11-14T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1604609624367-a799bf3d5acd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=989&q=80",
+      "likes": 15,
+      "comments": [
+        {
+          "userName": "Dale Cooper",
+          "comment": "Let's visit this again!",
+          "date": "2020-11-14T14:48:00.000Z"
+        },
+        {
+          "userName": "Geoffrey Howe",
+          "comment": "Beatuiful artwork",
+          "date": "2020-11-14T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "g268u593er",
+      "userName": "Wilona Burke",
+      "userImage": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1992-11-15",
+      "wishes": 8,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-16T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-17T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "107iro9h40",
+      "userName": "Ike Green",
+      "userImage": "https://images.unsplash.com/photo-1568967729548-e3dbad3d37e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "CHI",
+      "postDate": "2020-11-16T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1604851880472-376ce53d3244?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80",
+      "likes": 9,
+      "comments": [
+        {
+          "userName": "Dale Cooper",
+          "comment": "Let's visit this again!",
+          "date": "2020-11-16T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "id": "1supoyt36o",
+      "userName": "Hadden Barrett",
+      "userImage": "https://images.unsplash.com/photo-1544348817-5f2cf14b88c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "VLN",
+      "postDate": "2020-11-17T10:27:00.000Z",
+      "postCover": "https://storage.coverr.co/p/flYliO01fn8Zw5RH1O9hXlbKbCs02A01hKp",
+      "postVideo": "https://storage.coverr.co/videos/flYliO01fn8Zw5RH1O9hXlbKbCs02A01hKp?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA1MTA2MzIyfQ.eHacEaqpHvG_dNz6lOVkNSG4cydWgrqYs9WDdhK82ks",
+      "likes": 27,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-17T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-17T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-18T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "17yeo593er",
+      "userName": "Roger Hudson",
+      "userImage": "https://images.unsplash.com/photo-1546672741-d327539d5f13?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1981-11-17",
+      "wishes": 28,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-17T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-17T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10197o9h40",
+      "userName": "Unity Harding",
+      "userImage": "https://images.unsplash.com/photo-1514846326710-096e4a8035e0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "TO",
+      "postDate": "2020-11-18T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1605041354474-9ee7d63deb21?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "likes": 9,
+      "comments": [
+        {
+          "userName": "Derek Daves",
+          "comment": "Looks very pretty",
+          "date": "2020-11-19T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "video",
+      "id": "1s3874u36o",
+      "userName": "Selena Jimenez",
+      "userImage": "https://images.unsplash.com/photo-1584361853901-dd1904bb7987?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "LDN",
+      "postDate": "2020-11-18T10:27:00.000Z",
+      "postCover": "https://storage.coverr.co/p/NaCaWWgFD8C4OGUi7qgMYvifvTeuiB024",
+      "postVideo": "https://storage.coverr.co/videos/NaCaWWgFD8C4OGUi7qgMYvifvTeuiB024?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcHBJZCI6Ijg3NjdFMzIzRjlGQzEzN0E4QTAyIiwiaWF0IjoxNjA1MTExMDY4fQ.aBe-kKHW6ytU_q2zcbmJ_4YJh-o8rcAtcpV978jok8s",
+      "likes": 17,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-18T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-18T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-18T18:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "17yeo8woer",
+      "userName": "Matt Hodges",
+      "userImage": "https://images.unsplash.com/photo-1583264277147-6efc00e438a9?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1998-11-19",
+      "wishes": 14,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-19T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-19T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10129peh40",
+      "userName": "Tommy Nelson",
+      "userImage": "https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "AMS",
+      "postDate": "2020-11-21T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1605089637409-dbd54d83b269?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "likes": 9,
+      "comments": [
+        {
+          "userName": "Derek Daves",
+          "comment": "When did you have your holiday? I thought you're planning on visiting Amsterdam only next month... Time definitely flies 😅",
+          "date": "2020-11-21T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "birthday",
+      "id": "1sy720woer",
+      "userName": "Mia Bird",
+      "userImage": "https://images.unsplash.com/photo-1521146764736-56c929d59c83?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80",
+      "birthdayDate": "1998-11-22",
+      "wishes": 24,
+      "comments": [
+        {
+          "userName": "Sara Lars",
+          "comment": "Congrads! And Best wishes",
+          "date": "2020-11-19T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-19T15:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10au0o9280",
+      "userName": "Ken Moss",
+      "userImage": "https://images.unsplash.com/photo-1552058544-f2b08422138a?ixlib=rb-1.2.1&auto=format&fit=crop&w=944&q=80",
+      "postLocation": "TO",
+      "postDate": "2020-11-24T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1560971017-e22e6a4fbefd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=947&q=80",
+      "likes": 19,
+      "comments": [
+        {
+          "userName": "Derek Daves",
+          "comment": "Did not expect to see you there, but I am glad you've finally went for lunch there. I've told you their meals are the best 🍔",
+          "date": "2020-11-24T14:48:00.000Z"
+        }
+      ]
+    },
+    {
+      "type": "post",
+      "id": "10187tep27",
+      "userName": "Vania Walters",
+      "userImage": "https://images.unsplash.com/photo-1583173170220-22d82796672a?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      "postLocation": "LDN",
+      "postDate": "2020-11-26T10:27:00.000Z",
+      "postImage": "https://images.unsplash.com/photo-1601974222604-f8c88fc836fd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      "likes": 25,
+      "comments": [
+        {
+          "userName": "Uncle Roger",
+          "comment": "Cool!",
+          "date": "2020-11-26T14:48:00.000Z"
+        },
+        {
+          "userName": "Luke Skywalker",
+          "comment": "Hope you'll have a good time!",
+          "date": "2020-11-26T15:48:00.000Z"
+        },
+        {
+          "userName": "Wade Owen Watts",
+          "comment": "Looks like a lot of fun",
+          "date": "2020-11-26T18:48:00.000Z"
+        },
+        {
+          "userName": "Selena Jimenez",
+          "comment": "Ah, we went there last week. Would have been nice to meet up.",
+          "date": "2020-11-26T19:48:00.000Z"
+        },
+        {
+          "userName": "Whitney Rehbein",
+          "comment": "Someone's finally fancy to share their adventures!",
+          "date": "2020-11-26T20:48:00.000Z"
+        }
+      ]
+    }
+  ]
+}
